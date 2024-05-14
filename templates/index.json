@@ -14,7 +14,8 @@
           "type": "button",
           "settings": {
             "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/favor-bovine-colostrum-powder"
+            "button_link": "shopify:\/\/products\/favor-bovine-colostrum-powder",
+            "button_style_secondary": false
           }
         }
       },
@@ -30,6 +31,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
@@ -137,7 +139,8 @@
           "type": "button",
           "settings": {
             "button_label": "BUY NOW",
-            "button_link": "shopify:\/\/products\/favor-bovine-colostrum-powder"
+            "button_link": "shopify:\/\/products\/favor-bovine-colostrum-powder",
+            "button_style_secondary": false
           }
         }
       },
@@ -154,6 +157,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -267,7 +271,8 @@
           "disabled": true,
           "settings": {
             "button_label": "Button label",
-            "button_link": ""
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
@@ -284,6 +289,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -341,7 +347,8 @@
           "type": "button",
           "settings": {
             "button_label": "LEARN MORE",
-            "button_link": "shopify:\/\/pages\/colostrum-benefits"
+            "button_link": "shopify:\/\/pages\/colostrum-benefits",
+            "button_style_secondary": false
           }
         }
       },
@@ -358,6 +365,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -601,7 +609,8 @@
           "type": "button",
           "settings": {
             "button_label": "WHO WE ARE",
-            "button_link": "shopify:\/\/pages\/who-we-are"
+            "button_link": "shopify:\/\/pages\/who-we-are",
+            "button_style_secondary": false
           }
         }
       },
@@ -618,6 +627,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -750,7 +760,8 @@
           "type": "button",
           "settings": {
             "button_label": "BUY NOW",
-            "button_link": "shopify:\/\/products\/favor-bovine-colostrum-powder"
+            "button_link": "shopify:\/\/products\/favor-bovine-colostrum-powder",
+            "button_style_secondary": false
           }
         }
       },
@@ -767,6 +778,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",

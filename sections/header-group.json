@@ -8,7 +8,7 @@
         "announcement": {
           "type": "announcement",
           "settings": {
-            "text": "Get 30% OFF your first subscription order | Use code TRYFAVOR30",
+            "text": "Over 500k scoops",
             "link": ""
           }
         }
@@ -17,10 +17,13 @@
         "announcement"
       ],
       "settings": {
-        "color_scheme": "inverse",
+        "color_scheme": "scheme-ea5fdea8-d9fe-4979-883d-12339d99b670",
         "show_line_separator": true,
+        "show_social": false,
         "auto_rotate": true,
-        "change_slides_speed": 5
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
       }
     },
     "header": {
@@ -32,6 +35,7 @@
         "sticky_header_type": "reduce-logo-size",
         "show_line_separator": true,
         "color_scheme": "background-1",
+        "menu_color_scheme": "",
         "enable_country_selector": false,
         "enable_language_selector": false,
         "mobile_logo_position": "center",

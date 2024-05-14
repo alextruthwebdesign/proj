@@ -5,7 +5,7 @@
     "favicon": "shopify:\/\/shop_images\/FavorTanFinal-NoBknd-092023.png",
     "type_header_font": "karla_n4",
     "heading_scale": 130,
-    "type_body_font": "fs_koopman_n4",
+    "type_body_font": "roboto_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
@@ -239,6 +239,17 @@
           "button_label": "#4c6762",
           "secondary_button_label": "#dfdfd8",
           "shadow": "#11151c"
+        }
+      },
+      "scheme-ea5fdea8-d9fe-4979-883d-12339d99b670": {
+        "settings": {
+          "background": "#202020",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "button": "#a9978d",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#a9978d",
+          "shadow": "#202020"
         }
       }
     }
