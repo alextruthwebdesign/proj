@@ -104,22 +104,24 @@
 }
 
 /* Text With Image */
-
-.image-with-text-section .page-width {
-  @apply max-w-full p-0;
+.image-with-text-section.image-with-text-centered {
+  @apply px-[10px];
+}
+.image-with-text-section.image-with-text-centered .page-width {
+  @apply max-w-[1796px] p-0 z-[2] relative;
 }
 
 .image-with-text-section .image-with-text__heading.h1 {
-  @apply text-[40px] leading-[50px] font-[600];
+  @apply text-[32px] sm:text-[40px] lg:text-[48px] leading-[40px] sm:leading-[50px] lg:leading-[60px] font-[600] max-w-[500px];
   letter-spacing: 0px;
 }
 
-.image-with-text-section .description {
-  @apply max-w-[704px] mt-[33px] mb-[22px];
+.image-with-text-section.image-with-text-centered .description {
+  @apply max-w-[704px] mt-[20px] lg:mt-[37px] mb-[13px];
 }
 
-.image-with-text-section .description h4 {
-  @apply text-[20px] sm:text-[24px] leading-[26px] sm:leading-[30px] font-[600] text-[#A9978D] mb-[17px];
+.image-with-text-section .description h3 {
+  @apply text-[24px] lg:text-[32px] leading-[30px] lg:leading-[40px] font-[600] text-[#A56550] mb-[14px];
   letter-spacing: 0px;
 }
 .image-with-text-section .description p {
@@ -127,5 +129,37 @@
   letter-spacing: 0px;
 }
 .image-with-text-section .description p:not(:last-of-type) {
-  @apply mb-[29px];
+  @apply mb-[15px] sm:mb-[29px];
+}
+.image-with-text-section.image-with-text-centered
+  .image-with-text__media-item
+  img {
+  @apply relative;
+}
+
+.image-with-text-section.image-with-text-centered
+  .image-with-text__media-item
+  .image-with-text__media {
+  @apply flex flex-col justify-center max-w-[822px] ml-auto 2xl:mt-[-37px] bg-transparent;
+}
+.image-with-text-section.image-with-text-centered .image-with-text__content {
+  @apply px-[20px] xl:pl-[88px] xl:pr-[30px];
+}
+
+.image-with-text-section.image-with-text-centered .image-with-text__text-item {
+  @apply mt-[4%] lg:mt-[9%];
+}
+.image-with-text-section.image-with-text-centered .image-with-text__grid {
+  @apply 2xl:pl-[5%];
+}
+
+.image-with-text-section {
+  @apply relative;
+}
+.image-with-text-section .top-image {
+  @apply absolute top-0 left-0 w-full z-[1];
+}
+
+.image-with-text-section .top-image img {
+  @apply w-full h-full;
 }

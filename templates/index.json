@@ -23,7 +23,7 @@
         "description_NXDwrW": {
           "type": "description",
           "settings": {
-            "description": "<h4>The Modern Western Diet Isn’t Enough<\/h4><p>On average, Americans consume 57% of their calories from ultra-processed foods.<\/p><p>Low energy, digestive issues, and weak immunity are all symptoms of the low-nutrition and ultra-processed Western diet.<\/p><p>Favor Colostrum rebuilds your immune barriers—the foundation of robust health—empowering you to live vibrantly and keep your family thriving. Packed with vital nutrients and immunoglobulins our First Milking Full-Fat Spectrum Colostrum is scientifically proven to boost gut and immune health.<\/p>"
+            "description": "<h3>The Modern Western Diet Isn’t Enough<\/h3><p>On average, Americans consume 57% of their calories from ultra-processed foods.<\/p><p>Low energy, digestive issues, and weak immunity are all symptoms of the low-nutrition and ultra-processed Western diet.<\/p><p>Favor Colostrum rebuilds your immune barriers—the foundation of robust health—empowering you to live vibrantly and keep your family thriving. Packed with vital nutrients and immunoglobulins our First Milking Full-Fat Spectrum Colostrum is scientifically proven to boost gut and immune health.<\/p>"
           }
         },
         "template--19863657906450__da7d41f3-f475-4488-b28f-adf17d5dfb94-16892714222c6ca58d-2": {
@@ -41,18 +41,20 @@
         "template--19863657906450__da7d41f3-f475-4488-b28f-adf17d5dfb94-16892714222c6ca58d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/unnamed_1_1.png",
+        "image": "shopify:\/\/shop_images\/Mask_group.png",
+        "top_image": "shopify:\/\/shop_images\/Ellipse_2.png",
         "height": "adapt",
+        "section_type": "centered",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2e93d9ca-66e9-48c7-9434-6d66e67a4e01",
+        "section_color_scheme": "scheme-cb367a46-6f39-4308-9126-b014f1ea34c6",
         "color_scheme": "scheme-2e93d9ca-66e9-48c7-9434-6d66e67a4e01",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
+        "padding_top": 52,
         "padding_bottom": 36
       }
     },
@@ -169,6 +171,7 @@
       "disabled": true,
       "settings": {
         "height": "adapt",
+        "section_type": "default",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -301,6 +304,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/EF7A6873.jpg",
         "height": "small",
+        "section_type": "default",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -377,6 +381,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Tan_Favor_Final_-_Larger_Background.png",
         "height": "adapt",
+        "section_type": "default",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -639,6 +644,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_7590.jpg",
         "height": "adapt",
+        "section_type": "default",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -790,6 +796,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/EF7A7477.jpg",
         "height": "small",
+        "section_type": "default",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
