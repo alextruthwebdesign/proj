@@ -1,0 +1,240 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 76
+      }
+    },
+    "4734c97a-fe75-4d32-8157-8e7a993b7ff2": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--19981028557074__4734c97a-fe75-4d32-8157-8e7a993b7ff2-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Immune System Boost",
+            "icon": "lock",
+            "row_content": "<p>Colostrum powder is rich in antibodies, immunoglobulins, and growth factors that fortify your immune system, helping you stay resilient against infections and illnesses.<\/p>",
+            "page": ""
+          }
+        },
+        "template--19981028557074__4734c97a-fe75-4d32-8157-8e7a993b7ff2-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Gut Health Support",
+            "icon": "leather",
+            "row_content": "<p>Packed with probiotics and prebiotics, colostrum powder promotes a healthy balance of gut bacteria, aiding digestion and enhancing nutrient absorption.<\/p>",
+            "page": ""
+          }
+        },
+        "template--19981028557074__4734c97a-fe75-4d32-8157-8e7a993b7ff2-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Athletic Performance Enhancement",
+            "icon": "lightning_bolt",
+            "row_content": "<p>Athletes can benefit from colostrum's natural growth factors, which may improve muscle strength, endurance, and post-exercise recovery.<\/p>",
+            "page": ""
+          }
+        },
+        "template--19981028557074__4734c97a-fe75-4d32-8157-8e7a993b7ff2-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Allergy Relief",
+            "icon": "eye",
+            "row_content": "<p>Colostrum's immune-enhancing properties may help alleviate allergy symptoms by reducing inflammation and modulating immune responses.<\/p>",
+            "page": ""
+          }
+        },
+        "01f65752-e9de-4433-9265-c78a55e51292": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Skin Rejuvenation",
+            "icon": "silhouette",
+            "row_content": "<p>With its potent mix of vitamins, minerals, and growth factors, colostrum powder can contribute to skin repair, reducing the appearance of fine lines and supporting a youthful complexion.<\/p>",
+            "page": ""
+          }
+        },
+        "7264b38a-5ae8-4588-b4a8-0fb4fcd7a507": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Anti-Inflammatory Properties",
+            "icon": "fire",
+            "row_content": "<p>Colostrum contains bioactive compounds that exhibit anti-inflammatory effects, assisting in the management of various inflammatory conditions.<\/p>",
+            "page": ""
+          }
+        },
+        "3c8dca5e-f45e-43ca-a8a9-e6dd2dc5adcb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Bone and Joint Health",
+            "icon": "check_mark",
+            "row_content": "<p>Colostrum's growth factors may aid in promoting bone density and joint integrity, offering potential benefits for bone health and joint mobility.<\/p>",
+            "page": ""
+          }
+        },
+        "f3741870-a8fe-4d43-9511-547d41feea37": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Stress Reduction",
+            "icon": "leaf",
+            "row_content": "<p>Rich in natural compounds like lactoferrin, colostrum powder has been linked to stress reduction and improved mood.<\/p>",
+            "page": ""
+          }
+        },
+        "f87e4601-44d9-439f-a342-32a29c13720b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Cardiovascular Support",
+            "icon": "heart",
+            "row_content": "<p>Some research suggests that colostrum might play a role in supporting heart health by regulating blood pressure and cholesterol levels.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19981028557074__4734c97a-fe75-4d32-8157-8e7a993b7ff2-collapsible_row-1",
+        "template--19981028557074__4734c97a-fe75-4d32-8157-8e7a993b7ff2-collapsible_row-2",
+        "template--19981028557074__4734c97a-fe75-4d32-8157-8e7a993b7ff2-collapsible_row-3",
+        "template--19981028557074__4734c97a-fe75-4d32-8157-8e7a993b7ff2-collapsible_row-4",
+        "01f65752-e9de-4433-9265-c78a55e51292",
+        "7264b38a-5ae8-4588-b4a8-0fb4fcd7a507",
+        "3c8dca5e-f45e-43ca-a8a9-e6dd2dc5adcb",
+        "f3741870-a8fe-4d43-9511-547d41feea37",
+        "f87e4601-44d9-439f-a342-32a29c13720b"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "One simple supplement. Countless health benefits.",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c522755e-28f7-4a17-b154-ea6b47a14564": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19981028557074__c522755e-28f7-4a17-b154-ea6b47a14564-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Bovine colostrum: benefits of its use in human food<\/strong>",
+            "text": "",
+            "link_label": "Tell me more, tell me more",
+            "link": "https:\/\/www.scielo.br\/j\/cta\/a\/fhDSsmv75RCXjQw3CWSFvjB\/"
+          }
+        },
+        "c5726452-9e1b-48f2-a1ff-ebc57ea5e796": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Health Benefits of Bovine Colostrum in Children and Adults<\/strong>",
+            "text": "",
+            "link_label": "Look at you doing your research",
+            "link": "https:\/\/www.sciencedirect.com\/science\/article\/abs\/pii\/B9780128098684000017"
+          }
+        },
+        "a4b06a57-2766-439f-9b4d-e98c9221b547": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Bovine colostrum: more than just an immunoglobulin supplier<\/strong>",
+            "text": "",
+            "link_label": "More than just a curious customer",
+            "link": "https:\/\/pubmed.ncbi.nlm.nih.gov\/10850155"
+          }
+        },
+        "template--19981028557074__c522755e-28f7-4a17-b154-ea6b47a14564-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Colostrum - its Composition, Benefits as a Nutraceutical - A Review<\/strong>",
+            "text": "",
+            "link_label": "Ooh, interesting",
+            "link": "http:\/\/www.foodandnutritionjournal.org\/volume1number1\/colostrum-its-composition-benefits-as-a-nutraceutical-a-review\/"
+          }
+        },
+        "2bebaae8-e353-4554-9f5a-49ad071f434a": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Colostrum Meets the Microbiome A Tried and True Remedy for Gut Health Takes Centre Stage<\/strong>",
+            "text": "",
+            "link_label": "Bravo!",
+            "link": "https:\/\/www.clinicaleducation.org\/resources\/reviews\/colostrum-meets-the-microbiome-a-tried-and-true-remedy-for-gut-health-takes-center-stage\/"
+          }
+        },
+        "2d5d9ca0-7320-4195-8bde-95cf659d526a": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Effects of Bovine Immunoglobulins on Immune Function, Allergy, and Infection<\/strong>",
+            "text": "",
+            "link_label": "C U L8R, allergies",
+            "link": "https:\/\/pubmed.ncbi.nlm.nih.gov\/29988421\/"
+          }
+        },
+        "b5a9a9d3-eddd-40c4-9136-f656accd420e": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Prevention of influenza episodes with colostrum compared with vaccination in healthy and high-risk cardiovascular subjects: the epidemiologic study in San Valentino<\/strong>",
+            "text": "",
+            "link_label": "Shots, shots, shots",
+            "link": "https:\/\/pubmed.ncbi.nlm.nih.gov\/17456621\/"
+          }
+        },
+        "template--19981028557074__c522755e-28f7-4a17-b154-ea6b47a14564-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Production and properties of health-promoting proteins and peptides from bovine colostrum and milk<\/strong>",
+            "text": "",
+            "link_label": "Read up, smarty pants",
+            "link": "https:\/\/pubmed.ncbi.nlm.nih.gov\/24200017\/"
+          }
+        },
+        "d2fa9244-9c62-417d-bd71-3cd109383a3a": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Colostrum effects on the gastrointestinal tract, and on nutritional, endocrine and metabolic parameters in neonatal calves<\/strong>",
+            "text": "",
+            "link_label": "Let's hear it",
+            "link": "https:\/\/www.sciencedirect.com\/science\/article\/abs\/pii\/S0301622600002220?via%3Dihub"
+          }
+        }
+      },
+      "block_order": [
+        "template--19981028557074__c522755e-28f7-4a17-b154-ea6b47a14564-column-1",
+        "c5726452-9e1b-48f2-a1ff-ebc57ea5e796",
+        "a4b06a57-2766-439f-9b4d-e98c9221b547",
+        "template--19981028557074__c522755e-28f7-4a17-b154-ea6b47a14564-column-2",
+        "2bebaae8-e353-4554-9f5a-49ad071f434a",
+        "2d5d9ca0-7320-4195-8bde-95cf659d526a",
+        "b5a9a9d3-eddd-40c4-9136-f656accd420e",
+        "template--19981028557074__c522755e-28f7-4a17-b154-ea6b47a14564-column-3",
+        "d2fa9244-9c62-417d-bd71-3cd109383a3a"
+      ],
+      "settings": {
+        "title": "Still unsure? Check out what the experts have to say:",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "I'M SOLD",
+        "button_link": "shopify:\/\/products\/favor-bovine-colostrum-powder",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4734c97a-fe75-4d32-8157-8e7a993b7ff2",
+    "c522755e-28f7-4a17-b154-ea6b47a14564"
+  ]
+}

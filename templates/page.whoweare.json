@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 76
+      }
+    },
+    "cb306bf5-ae4f-4f31-a83e-8c5b815e3fe3": {
+      "type": "multirow",
+      "blocks": {
+        "template--19863658135826__cb306bf5-ae4f-4f31-a83e-8c5b815e3fe3-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EF7A7456.jpg",
+            "caption": "GET TO KNOW FAVOR",
+            "heading": "We've spent our whole lives in manufacturing.",
+            "text": "<p>With decades of experience in the manufacturing industry, we bring an unwavering commitment to quality and precision to every aspect of Favor's production process.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19863658135826__cb306bf5-ae4f-4f31-a83e-8c5b815e3fe3-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EF7A7115.jpg",
+            "caption": "GET TO KNOW FAVOR",
+            "heading": "We're incredibly passionate about health and wellness.",
+            "text": "<p>Our deep-rooted passion for health and wellness serves as the driving force behind Favor. We wholeheartedly believe in empowering individuals to lead healthier and more fulfilling lives.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19863658135826__cb306bf5-ae4f-4f31-a83e-8c5b815e3fe3-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EF7A6906.jpg",
+            "caption": "GET TO KNOW FAVOR",
+            "heading": "We put family first.",
+            "text": "<p>At Favor, family is at the heart of everything we do. Just as we prioritize the well-being of our loved ones, we take immense pride in crafting products that we confidently use for our own families, ensuring every customer feels cared for and valued.<\/p>",
+            "button_label": "FIND FAVOR",
+            "button_link": "shopify:\/\/products\/favor-bovine-colostrum-powder"
+          }
+        }
+      },
+      "block_order": [
+        "template--19863658135826__cb306bf5-ae4f-4f31-a83e-8c5b815e3fe3-row-1",
+        "template--19863658135826__cb306bf5-ae4f-4f31-a83e-8c5b815e3fe3-row-2",
+        "template--19863658135826__cb306bf5-ae4f-4f31-a83e-8c5b815e3fe3-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cb306bf5-ae4f-4f31-a83e-8c5b815e3fe3"
+  ]
+}

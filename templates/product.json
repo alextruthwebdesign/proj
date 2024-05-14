@@ -1,0 +1,228 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "body"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "0aeaee8e-f3ca-46db-9730-d739be8c6860": {
+          "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/wc-product-review-badge\/f1860e84-309f-40ca-a2df-188435a622f3",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "text_wNNnPm": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Use code TRYFAVOR30 at checkout for 30% off your first subscription order.<\/strong>",
+            "text_style": "body"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "title",
+        "0aeaee8e-f3ca-46db-9730-d739be8c6860",
+        "price",
+        "rating",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "text_wNNnPm",
+        "buy_buttons"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 24
+      }
+    },
+    "e989b5fa-0106-4955-b75a-329bc681d90e": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--19863658299666__e989b5fa-0106-4955-b75a-329bc681d90e-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "check_mark",
+            "row_content": "<p>100% Pure Bovine Colostrum Powder<\/p><p><em>Allergen Warning: Contains Milk<\/em><\/p>",
+            "page": ""
+          }
+        },
+        "template--19863658299666__e989b5fa-0106-4955-b75a-329bc681d90e-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "3rd Party Testing",
+            "icon": "check_mark",
+            "row_content": "<p>Our product undergoes rigorous third-party testing for mold, pesticides, and other contaminants. Check out our most recent lot's COA <a href=\"https:\/\/drive.google.com\/file\/d\/18ySveGd9yDpA0Rvig2NZpHW27LUxmN9X\/view?usp=sharing\" target=\"_blank\" title=\"here\"><strong>here<\/strong><\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "template--19863658299666__e989b5fa-0106-4955-b75a-329bc681d90e-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Sourcing",
+            "icon": "check_mark",
+            "row_content": "<p>We source our colostrum from trusted Grade A U.S. dairy farms, prioritizing ethical practices that put the well-being of calves first. Our commitment to quality starts with responsible sourcing, ensuring the highest standards for our colostrum.<\/p>",
+            "page": ""
+          }
+        },
+        "template--19863658299666__e989b5fa-0106-4955-b75a-329bc681d90e-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Supplement Facts",
+            "icon": "check_mark",
+            "row_content": "<ul><li>Serving Size: 2 scoops (2 grams)<\/li><li>Servings Per Container: 60<\/li><\/ul><p>Amount Per Serving:<\/p><ul><li>Calories: 10<\/li><li>Total Fat: 0 g<\/li><li>Cholesterol: 3.5 mg<\/li><li>Protein: 1 g<\/li><li>Colostrum (Bovine): 2000 mg<\/li><li>Immunoglobulin G (IgG): 600 mg<\/li><\/ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19863658299666__e989b5fa-0106-4955-b75a-329bc681d90e-collapsible_row-1",
+        "template--19863658299666__e989b5fa-0106-4955-b75a-329bc681d90e-collapsible_row-2",
+        "template--19863658299666__e989b5fa-0106-4955-b75a-329bc681d90e-collapsible_row-3",
+        "template--19863658299666__e989b5fa-0106-4955-b75a-329bc681d90e-collapsible_row-4"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "All the details, nothing to hide.",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "opinew-reviews-product-page-code": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1704375144e1f558ad": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1704385889f5625a93": {
+      "type": "apps",
+      "blocks": {
+        "fe86881f-26ed-4a48-858c-e892ec6f8c03": {
+          "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "fe86881f-26ed-4a48-858c-e892ec6f8c03"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17115488366ba000a2": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_8Y3CaB": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_8Y3CaB"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e989b5fa-0106-4955-b75a-329bc681d90e",
+    "related-products",
+    "opinew-reviews-product-page-code",
+    "1704375144e1f558ad",
+    "1704385889f5625a93",
+    "17115488366ba000a2"
+  ]
+}

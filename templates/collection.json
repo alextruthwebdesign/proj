@@ -1,0 +1,121 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "main-collection-product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 8,
+        "columns_desktop": 2,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3dee507e-9a50-4363-b02c-5109b8395765": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19863657808146__3dee507e-9a50-4363-b02c-5109b8395765-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--19863657808146__3dee507e-9a50-4363-b02c-5109b8395765-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--19863657808146__3dee507e-9a50-4363-b02c-5109b8395765-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--19863657808146__3dee507e-9a50-4363-b02c-5109b8395765-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--19863657808146__3dee507e-9a50-4363-b02c-5109b8395765-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--19863657808146__3dee507e-9a50-4363-b02c-5109b8395765-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--19863657808146__3dee507e-9a50-4363-b02c-5109b8395765-title-1",
+        "template--19863657808146__3dee507e-9a50-4363-b02c-5109b8395765-price-1",
+        "template--19863657808146__3dee507e-9a50-4363-b02c-5109b8395765-variant_picker-1",
+        "template--19863657808146__3dee507e-9a50-4363-b02c-5109b8395765-quantity_selector-1",
+        "template--19863657808146__3dee507e-9a50-4363-b02c-5109b8395765-buy_buttons-1",
+        "template--19863657808146__3dee507e-9a50-4363-b02c-5109b8395765-share-1"
+      ],
+      "settings": {
+        "product": "favor-bovine-colostrum-powder",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1701972968d08efaf7": {
+      "type": "apps",
+      "blocks": {
+        "079c3af1-7ce9-43ef-a0ea-757e1a0b746f": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/average-rating\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+            "product": "favor-bovine-colostrum-powder"
+          }
+        },
+        "4a6e9573-f965-47d1-af15-bb62bbe6ed8e": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/featured-reviews-carousel\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "079c3af1-7ce9-43ef-a0ea-757e1a0b746f",
+        "4a6e9573-f965-47d1-af15-bb62bbe6ed8e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "main-collection-product-grid",
+    "3dee507e-9a50-4363-b02c-5109b8395765",
+    "1701972968d08efaf7"
+  ]
+}

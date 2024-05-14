@@ -1,0 +1,394 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_URcP3Q": {
+      "type": "rich-text",
+      "blocks": {
+        "text_iQH3hy": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Get 30% OFF your first subscription order! Use code TRYFAVOR30 (save 10% on every following order).<\/strong><\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "text_iQH3hy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_nG7Y6b": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_K9BRyp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>12 Reasons Why Colostrum Is Shaking Up The Supplement Industry<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_gDCHmG": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Want to feel healthier and more energetic, no matter if you're at home, work, or exercising? Looking for a way to improve your overall wellbeing and help your family feel their best?<\/strong><\/h3>"
+          }
+        },
+        "text_JTy7cH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you care about keeping yourself and your family healthy, using natural supplements? Are you looking for a real, whole food way to improve everyone's health right now? It's tough to find products that actually work. How about something that strengthens your body's own ability to fight off illness and boosts your immune and digestive health?<\/p>"
+          }
+        },
+        "text_DWikae": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>This supplement was intelligently created by God as mammal's first superfood, is backed by over 5,000 studies, and is natural, safe, and effective.<\/strong><\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_K9BRyp",
+        "text_gDCHmG",
+        "text_JTy7cH",
+        "text_DWikae"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "rich_text_CCH7nT": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3tRttR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You've likely heard about Colostrum, the first milk mammals give to their newborns, and how Bovine Colostrum is incredible for human health, too. Favor Colostrum is special because it's <strong>collected within the first 6 hours<\/strong> after a calf is born, when it's <strong>richest in bioactive nutrients<\/strong>. With over 400 bioactive nutrients, Favor Colostrum is designed to help <strong>slow cellular aging, boost metabolism, strengthen immunity, improve gut health, <\/strong>and <strong>reduce inflammation<\/strong>. It's all about giving you and your family the health boost you deserve<\/p>"
+          }
+        },
+        "text_xtBRPm": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Favor is the only transparent Colostrum product on the market, utilizing 6-Hour Colostrum, which has the highest bioactive content, to rebuild and restore your health. <\/strong><\/h3>"
+          }
+        },
+        "text_WUrHfx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover why Favor Colostrum could be the answer you and your family have been looking for.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_3tRttR",
+        "text_xtBRPm",
+        "text_WUrHfx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "featured_product_4zVrfR": {
+      "type": "featured-product",
+      "blocks": {
+        "title_BfbVhw": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "text_VzALVX": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Use code TRYFAVOR30 at checkout for 30% off your first Subscribe & Save order<\/strong>",
+            "text_style": "body"
+          }
+        },
+        "price_LwDjzj": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_AqBeaq": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_wkrKLQ": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_pQ8gr8": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "text_KEpyWx": {
+          "type": "text",
+          "settings": {
+            "text": "*Discount is applied to full retail price of $57.99. When applied to the subscription price, you'll see a 20% discount, which combines with the existing 10% subscription discount for a total savings of 30%.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "title_BfbVhw",
+        "text_VzALVX",
+        "price_LwDjzj",
+        "variant_picker_AqBeaq",
+        "quantity_selector_wkrKLQ",
+        "buy_buttons_pQ8gr8",
+        "text_KEpyWx"
+      ],
+      "settings": {
+        "product": "favor-bovine-colostrum-powder",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_4knngB": {
+      "type": "rich-text",
+      "blocks": {
+        "text_UbmEda": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>1. Real Results You Can Feel:<br\/><\/strong>Favor Colostrum isn’t just another supplement; it’s a game-changer. With over 5,000 studies backing its effectiveness, it’s like a shield for your gut, keeping the bad stuff out and boosting cell health. Our users start feeling more energetic and healthier within days, not weeks. It’s all about giving your body the nutrients it needs to take care of itself.<strong><br\/><\/strong><\/p><p><strong>2. Boosts Hair Health from Within:<br\/><\/strong>Thin hair? Not for long. Favor Colostrum is packed with everything your hair craves to grow thick and strong. Forget harsh chemicals; our colostrum is all about feeding your hair roots naturally, promoting growth and bringing back that healthy shine.<strong><br\/><\/strong><\/p><p><strong>3. Fights Inflammation & Fog:<br\/><\/strong>Ever feel like you’re just not at 100%? Inflammation could be the culprit, making you feel foggy and slowing you down. Favor Colostrum strengthens your body's defenses, reducing inflammation and helping clear your mind and body for better days ahead.<strong><br\/><\/strong><\/p><p><strong>4. For Skin That Glows:<br\/><\/strong>Tired of looking tired? Our Colostrum goes beyond the surface, helping to strengthen your skin’s defenses and reduce signs of aging. Say goodbye to wrinkles and hello to a healthy, radiant glow that shows.<strong><br\/><\/strong><\/p><p><strong>5. Rev Up Your Metabolism:<br\/><\/strong>Feeling sluggish isn’t just about being tired; it could be your metabolism slowing down. Favor Colostrum helps get your gut health in check, which can turn your metabolism around and help you feel more vibrant and alive.<strong><br\/><\/strong><\/p><p><strong>6. Say No to Bloating:<br\/><\/strong>Upgrading your diet shouldn’t mean discomfort. Unlike standard probiotics, Favor Colostrum supports your whole gut, helping to ease bloating and support a healthy digestive system naturally.<strong><br\/><\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_UbmEda"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_product_RKcawq": {
+      "type": "featured-product",
+      "blocks": {
+        "title_HHFibj": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "text_ytmzj8": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Use code TRYFAVOR30 at checkout for 30% off your first Subscribe & Save order<\/strong>",
+            "text_style": "body"
+          }
+        },
+        "price_HBh8ej": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_Jn6hwn": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_PtrADX": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_TtXny9": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "text_DrPDJW": {
+          "type": "text",
+          "settings": {
+            "text": "*Discount is applied to full retail price of $57.99. When applied to the subscription price, you'll see a 20% discount, which combines with the existing 10% subscription discount for a total savings of 30%.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "title_HHFibj",
+        "text_ytmzj8",
+        "price_HBh8ej",
+        "variant_picker_Jn6hwn",
+        "quantity_selector_PtrADX",
+        "buy_buttons_TtXny9",
+        "text_DrPDJW"
+      ],
+      "settings": {
+        "product": "favor-bovine-colostrum-powder",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_gCgfqg": {
+      "type": "rich-text",
+      "blocks": {
+        "text_9xthQb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>7. Your Immune System’s Best Friend:<br\/><\/strong>Life’s daily stresses can wear down your immune system. Favor Colostrum is like a booster for your body’s natural defenses, helping you stay healthier and more resilient, no matter what life throws at you.<strong><br\/><\/strong><\/p><p><strong>8. Build Lean Muscle:<br\/><\/strong>Want more from your workouts? Favor Colostrum is packed with bioactives that not only support muscle growth but also improve strength and reduce recovery time. Get ready to see results.<strong><br\/><\/strong><\/p><p><strong>9. Brain Power:<br\/><\/strong>Keeping your brain in top shape is crucial for staying sharp. Favor Colostrum’s blend of nutrients fuels your brain cells for better focus, memory, and overall cognitive performance.<strong><br\/><\/strong><\/p><p><strong>10. Pure and Powerful:<br\/><\/strong>We keep it simple and pure with no fillers or unnecessary additives. Just natural, potent Colostrum to support your overall health, the way nature intended.<strong><br\/><\/strong><\/p><p><strong>11. Loved by Many. And Keeps Selling Out. <br\/><\/strong>Our customers can’t get enough of Favor Colostrum. With glowing reviews and results, demand is increasing. Unfortunately, running out of stock is too common!<strong><br\/><\/strong><\/p><p><strong>12. Intelligently Created:<\/strong><br\/>Colostrum is no ordinary food; it’s intelligently designed by God  as the first superfood for newborns to build their immunity, support gut health, and promote overall growth. At Favor our mission is to glorify God by creating LEAN Healthy Products that allow families to lead and live thriving lives. We chose Colostrum as our cornerstone ingredient as it does just that—glorifies the One who created it! By incorporating this incredibly designed superfood into our daily routines, we embrace not just a supplement, but a testament to God’s provision for our health and well-being.<strong><br\/><\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_9xthQb"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_x7NRPB": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=GBONO3zPQc8&list=TLGGx8uR7SNKcWowODA1MjAyNA",
+        "cover_image": "shopify:\/\/shop_images\/farm_smaller_4.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_dq3gGf": {
+      "type": "featured-product",
+      "blocks": {
+        "title_mrkPTm": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "text_G6pAcW": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Use code TRYFAVOR30 at checkout for 30% off your first Subscribe & Save order<\/strong>",
+            "text_style": "body"
+          }
+        },
+        "price_eLN6fC": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_RBQ9ke": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_JhDekp": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_maEiXU": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "text_RQhBUy": {
+          "type": "text",
+          "settings": {
+            "text": "*Discount is applied to full retail price of $57.99. When applied to the subscription price, you'll see a 20% discount, which combines with the existing 10% subscription discount for a total savings of 30%.lock",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "title_mrkPTm",
+        "text_G6pAcW",
+        "price_eLN6fC",
+        "variant_picker_RBQ9ke",
+        "quantity_selector_JhDekp",
+        "buy_buttons_maEiXU",
+        "text_RQhBUy"
+      ],
+      "settings": {
+        "product": "favor-bovine-colostrum-powder",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_URcP3Q",
+    "rich_text_nG7Y6b",
+    "rich_text_CCH7nT",
+    "featured_product_4zVrfR",
+    "rich_text_4knngB",
+    "featured_product_RKcawq",
+    "rich_text_gCgfqg",
+    "video_x7NRPB",
+    "featured_product_dq3gGf"
+  ]
+}
