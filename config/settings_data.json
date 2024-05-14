@@ -1,6 +1,6 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Favor_No_Bknd.png",
+    "logo": "shopify:\/\/shop_images\/Logo_2.png",
     "logo_width": 160,
     "favicon": "shopify:\/\/shop_images\/FavorTanFinal-NoBknd-092023.png",
     "type_header_font": "karla_n4",
@@ -248,6 +248,17 @@
           "text": "#ffffff",
           "button": "#a9978d",
           "button_label": "#ffffff",
+          "secondary_button_label": "#a9978d",
+          "shadow": "#202020"
+        }
+      },
+      "scheme-cb367a46-6f39-4308-9126-b014f1ea34c6": {
+        "settings": {
+          "background": "#f2eadc",
+          "background_gradient": "",
+          "text": "#202020",
+          "button": "#a9978d",
+          "button_label": "#dfdfd8",
           "secondary_button_label": "#a9978d",
           "shadow": "#202020"
         }

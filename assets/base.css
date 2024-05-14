@@ -123,8 +123,8 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
 @media screen and (min-width: 990px) {
   .header:not(.drawer-menu).page-width {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .page-width--narrow {
@@ -2355,7 +2355,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .header-wrapper--border-bottom {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  border-bottom: 0.1rem solid #e3d2b5;
 }
 
 .header {
@@ -2393,7 +2393,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
   .header--middle-left {
     grid-template-areas: "heading navigation icons";
-    grid-template-columns: auto auto 1fr;
+    grid-template-columns: auto 1fr auto;
     column-gap: 2rem;
   }
 

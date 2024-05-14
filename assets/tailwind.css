@@ -8,3 +8,53 @@
   font-family: var(--font-heading-family);
   letter-spacing: 0;
 }
+
+.header .header__icon--cart .icon {
+  @apply w-[24px] h-[24px];
+}
+
+.header .icon-wrapper {
+  @apply flex items-center gap-x-[12px];
+}
+
+.header .icon-wrapper span {
+  @apply font-[600];
+  font-family: var(--font-heading-family);
+  letter-spacing: 0px;
+}
+
+.header .header__icon {
+  @apply w-auto no-underline;
+}
+
+.header .header__icons {
+  @apply gap-x-[35px] p-0 pr-[13px];
+}
+.header.header--middle-left .header__inline-menu {
+  @apply flex justify-center xl:pl-[20%];
+}
+
+.header .list-menu__item {
+  @apply font-[600] text-[#202020] pt-[10px] px-[16px];
+  font-family: var(--font-heading-family);
+  letter-spacing: 0px;
+}
+
+.header.page-width {
+  @apply max-w-[1460px];
+}
+.header .header__heading-logo-wrapper {
+  @apply max-w-[127px];
+}
+
+@media (max-width: 1040px) {
+  .header .list-menu__item {
+    @apply px-[10px];
+  }
+}
+
+@media (max-width: 989px) {
+  .header.header--middle-left .header__inline-menu {
+    @apply hidden;
+  }
+}

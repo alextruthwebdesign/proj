@@ -29,18 +29,18 @@
     "header": {
       "type": "header",
       "settings": {
-        "logo_position": "top-center",
-        "menu": "main-menu",
+        "logo_position": "middle-left",
+        "menu": "main-menu-v2",
         "menu_type_desktop": "mega",
         "sticky_header_type": "reduce-logo-size",
         "show_line_separator": true,
-        "color_scheme": "background-1",
-        "menu_color_scheme": "",
+        "color_scheme": "scheme-cb367a46-6f39-4308-9126-b014f1ea34c6",
+        "menu_color_scheme": "background-1",
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "mobile_logo_position": "center",
+        "mobile_logo_position": "left",
         "margin_bottom": 0,
-        "padding_top": 36,
+        "padding_top": 22,
         "padding_bottom": 12
       }
     }
