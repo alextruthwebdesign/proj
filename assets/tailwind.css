@@ -68,18 +68,18 @@
 }
 
 .hero .hero-wrapper {
-  @apply max-w-[1220px] mx-auto text-center;
+  @apply max-w-[1275px] mx-auto text-center;
 }
 
 .hero .hero-wrapper h1 {
-  @apply text-[40px] sm:text-[50px] lg:text-[64px] leading-[50px] sm:leading-[60px] lg:leading-[80px] font-[600] mb-[27px];
+  @apply text-[40px] sm:text-[50px] lg:text-[64px] leading-[50px] sm:leading-[60px] lg:leading-[80px] font-[600] mb-[14px];
   letter-spacing: 0px;
 }
 .hero .hero-wrapper .hero-description {
-  @apply mb-[42px];
+  @apply mb-[27px];
 }
-.hero .hero-wrapper h4 {
-  @apply text-[20px] sm:text-[24px] leading-[26px] sm:leading-[30px] font-[600] text-[#A9978D] mb-[17px];
+.hero .hero-wrapper h3 {
+  @apply text-[24px] lg:text-[32px] leading-[30px] lg:leading-[40px] font-[600] text-[#A9978D] mb-[14px];
   letter-spacing: 0px;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .hero .hero-wrapper .image-wrapper {
-  @apply max-w-[699px] mx-auto mt-[50px] sm:mt-[75px] relative;
+  @apply max-w-[699px] mx-auto mt-[60px] sm:mt-[80px] lg:mt-[130px] relative;
 }
 .hero .hero-wrapper .image-wrapper img {
   @apply w-full h-full object-cover relative z-[1];
@@ -101,4 +101,31 @@
 
 .hero .hero-wrapper .hero-shape-after {
   @apply hidden sm:block absolute right-[-68px] bottom-[77px]  z-[-1];
+}
+
+/* Text With Image */
+
+.image-with-text-section .page-width {
+  @apply max-w-full p-0;
+}
+
+.image-with-text-section .image-with-text__heading.h1 {
+  @apply text-[40px] leading-[50px] font-[600];
+  letter-spacing: 0px;
+}
+
+.image-with-text-section .description {
+  @apply max-w-[704px] mt-[33px] mb-[22px];
+}
+
+.image-with-text-section .description h4 {
+  @apply text-[20px] sm:text-[24px] leading-[26px] sm:leading-[30px] font-[600] text-[#A9978D] mb-[17px];
+  letter-spacing: 0px;
+}
+.image-with-text-section .description p {
+  @apply text-[16px] sm:text-[18px] leading-[25px] sm:leading-[28.8px] text-[#202020];
+  letter-spacing: 0px;
+}
+.image-with-text-section .description p:not(:last-of-type) {
+  @apply mb-[29px];
 }

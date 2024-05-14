@@ -5,7 +5,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_6.png",
         "heading": "Whole Body Health, Pure Colostrum",
-        "description": "<h4>Redeem Your Health and Run Your Race with Favor— Nature's First Superfood.<\/h4><p>Boost your gut health, strengthen your immune system, recover faster, and improve overall wellness with Favor’s Full-Fat Spectrum Colostrum.<\/p>",
+        "description": "<h3>Redeem Your Health and Run Your Race with Favor— Nature's First Superfood.<\/h3><p>Boost your gut health, strengthen your immune system, recover faster, and improve overall wellness with Favor’s Full-Fat Spectrum Colostrum.<\/p>",
         "button_label": "Shop Now",
         "button_link": ""
       }
@@ -16,14 +16,20 @@
         "template--19863657906450__da7d41f3-f475-4488-b28f-adf17d5dfb94-16892714222c6ca58d-0": {
           "type": "heading",
           "settings": {
-            "heading": "Do your health a <strong>favor<\/strong>—and try bovine colostrum.",
+            "heading": "What holds you                        back from Thriving?",
             "heading_size": "h1"
+          }
+        },
+        "description_NXDwrW": {
+          "type": "description",
+          "settings": {
+            "description": "<h4>The Modern Western Diet Isn’t Enough<\/h4><p>On average, Americans consume 57% of their calories from ultra-processed foods.<\/p><p>Low energy, digestive issues, and weak immunity are all symptoms of the low-nutrition and ultra-processed Western diet.<\/p><p>Favor Colostrum rebuilds your immune barriers—the foundation of robust health—empowering you to live vibrantly and keep your family thriving. Packed with vital nutrients and immunoglobulins our First Milking Full-Fat Spectrum Colostrum is scientifically proven to boost gut and immune health.<\/p>"
           }
         },
         "template--19863657906450__da7d41f3-f475-4488-b28f-adf17d5dfb94-16892714222c6ca58d-2": {
           "type": "button",
           "settings": {
-            "button_label": "Buy Now",
+            "button_label": "Read Study",
             "button_link": "shopify:\/\/products\/favor-bovine-colostrum-powder",
             "button_style_secondary": false
           }
@@ -31,18 +37,19 @@
       },
       "block_order": [
         "template--19863657906450__da7d41f3-f475-4488-b28f-adf17d5dfb94-16892714222c6ca58d-0",
+        "description_NXDwrW",
         "template--19863657906450__da7d41f3-f475-4488-b28f-adf17d5dfb94-16892714222c6ca58d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Tan_Favor_Final_-_Larger_Background.png",
+        "image": "shopify:\/\/shop_images\/unnamed_1_1.png",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-2e93d9ca-66e9-48c7-9434-6d66e67a4e01",
+        "color_scheme": "scheme-2e93d9ca-66e9-48c7-9434-6d66e67a4e01",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 36,
