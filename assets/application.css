@@ -747,6 +747,12 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-body {
-  display: none;
+/* Announcement Bar */
+
+.announcement-bar .announcement-bar__message.h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  font-family: var(--font-heading-family);
+  letter-spacing: 0;
 }

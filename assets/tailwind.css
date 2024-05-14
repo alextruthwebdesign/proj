@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply hidden;
+/* Announcement Bar */
+.announcement-bar .announcement-bar__message.h5 {
+  @apply text-[18px] leading-[22.5px] font-[600];
+  font-family: var(--font-heading-family);
+  letter-spacing: 0;
 }
