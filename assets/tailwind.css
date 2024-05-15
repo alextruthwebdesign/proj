@@ -140,10 +140,10 @@
 .image-with-text-section.image-with-text-centered
   .image-with-text__media-item
   .image-with-text__media {
-  @apply flex flex-col justify-center max-w-[822px] ml-auto 2xl:translate-y-[-37px] bg-transparent;
+  @apply flex flex-col justify-center max-w-[822px] ml-auto  bg-transparent;
 }
 .image-with-text-section.image-with-text-centered .image-with-text__content {
-  @apply px-[20px] xl:pl-[88px] xl:pr-[30px];
+  @apply px-[20px] xl:pl-[88px] xl:pr-[30px] pb-0 flex flex-col lg:justify-end;
 }
 
 .image-with-text-section.image-with-text-centered .image-with-text__text-item {
