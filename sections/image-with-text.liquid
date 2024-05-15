@@ -24,7 +24,7 @@
   endif
 -%}
 
-<div class="image-with-text-section section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if section.settings.section_type == 'centered' %} image-with-text-centered {% endif %}">
+<div class="image-with-text-section section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if section.settings.section_type == 'centered' %} image-with-text-centered {% else %} image-with-text-default {% endif %}">
   {% if section.settings.top_image != blank %}
     <div class="top-image">
       <img
@@ -36,6 +36,22 @@
       >
     </div>
   {% endif %}
+  {% if section.settings.bottom_image != blank %}
+    <div class="bottom-image">
+      <img
+        src="{{ section.settings.bottom_image | image_url: width: 1920 }}"
+        alt=""
+        width="1920"
+        height="160"
+        loading="lazy"
+      >
+    </div>
+  {% endif %}
+  {% if section.settings.section_type == 'default' %}
+  <div class="shape-wrapper">
+    {% render 'text-with-image-shape' %}
+  </div>
+  {% endif %}
   <div class="page-width">
     <div class="image-with-text image-with-text--{{ section.settings.content_layout }} isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == section.settings.section_color_scheme and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
@@ -44,6 +60,7 @@
             class="image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
             
           >
+          
             {%- if section.settings.image != blank -%}
               {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
                 {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
@@ -135,6 +152,11 @@
       "type": "image_picker",
       "id": "top_image",
       "label": "Top Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "bottom_image",
+      "label": "Bottom Image"
     },
     {
       "type": "select",

@@ -982,6 +982,11 @@ video {
   padding-right: 10px;
 }
 
+.image-with-text-section .page-width {
+  max-width: 100%;
+  padding: 0px;
+}
+
 .image-with-text-section.image-with-text-centered .page-width {
   position: relative;
   z-index: 2;
@@ -990,7 +995,6 @@ video {
 }
 
 .image-with-text-section .image-with-text__heading.h1 {
-  max-width: 500px;
   font-size: 32px;
   font-weight: 600;
   line-height: 40px;
@@ -1014,6 +1018,39 @@ video {
   letter-spacing: 0px;
 }
 
+.image-with-text-section.image-with-text-default
+  .grid--2-col-tablet
+  .image-with-text__text-item.grid__item {
+  width: 57%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 1024px) {
+  .image-with-text-section.image-with-text-default
+  .grid--2-col-tablet
+  .image-with-text__text-item.grid__item {
+    padding-right: 8%;
+    padding-left: 20px;
+  }
+}
+
+.image-with-text-section.image-with-text-default
+  .grid--2-col-tablet
+  .image-with-text__media-item.grid__item {
+  width: 43%;
+}
+
+.image-with-text-section.image-with-text-centered .image-with-text__heading.h1 {
+  max-width: 500px;
+}
+
+.image-with-text-section .description {
+  margin-top: 42px;
+  margin-bottom: 13px;
+  max-width: 704px;
+}
+
 .image-with-text-section.image-with-text-centered .description {
   margin-top: 20px;
   margin-bottom: 13px;
@@ -1031,8 +1068,6 @@ video {
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
-  --tw-text-opacity: 1;
-  color: rgb(165 101 80 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
@@ -1046,11 +1081,14 @@ video {
   letter-spacing: 0px;
 }
 
+.image-with-text-section.image-with-text-centered .description h3 {
+  --tw-text-opacity: 1;
+  color: rgb(165 101 80 / var(--tw-text-opacity));
+}
+
 .image-with-text-section .description p {
   font-size: 16px;
   line-height: 25px;
-  --tw-text-opacity: 1;
-  color: rgb(32 32 32 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
@@ -1089,6 +1127,40 @@ video {
   flex-direction: column;
   justify-content: center;
   background-color: transparent;
+}
+
+.image-with-text-section.image-with-text-default .image-with-text__content {
+  max-width: 704px;
+  padding: 0px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+@media (min-width: 640px) {
+  .image-with-text-section.image-with-text-default .image-with-text__content {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-with-text-section.image-with-text-default .image-with-text__content {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .image-with-text-section.image-with-text-default .image-with-text__content {
+    padding-top: 251px;
+    padding-bottom: 251px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .image-with-text-section.image-with-text-default .image-with-text__content {
+    padding-top: 315px;
+  }
 }
 
 .image-with-text-section.image-with-text-centered .image-with-text__content {
@@ -1143,6 +1215,58 @@ video {
 .image-with-text-section .top-image img {
   height: 100%;
   width: 100%;
+}
+
+.image-with-text-section .bottom-image {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+  width: 100%;
+}
+
+.image-with-text-section .bottom-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.image-with-text-section.image-with-text-default .shape-wrapper {
+  position: absolute;
+  top: 117px;
+  right: 25.3vw;
+  z-index: 1;
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .image-with-text-section.image-with-text-default .shape-wrapper {
+    display: block;
+  }
+}
+
+@media (max-width: 880px) {
+  .image-with-text-section.image-with-text-default .image-with-text__grid {
+    flex-direction: column-reverse;
+  }
+
+  .image-with-text-section.image-with-text-default
+    .grid--2-col-tablet
+    .image-with-text__text-item.grid__item {
+    width: 100%;
+  }
+
+  .image-with-text-section.image-with-text-default
+    .grid--2-col-tablet
+    .image-with-text__media-item.grid__item {
+    width: 100%;
+  }
+
+  .image-with-text-section.image-with-text-default
+    .grid--2-col-tablet
+    .image-with-text__media-item.grid__item
+    .image-with-text__media {
+    padding-top: 100%;
+  }
 }
 
 /* Image Banner */

@@ -112,6 +112,55 @@
         "padding_bottom": 52
       }
     },
+    "image_with_text_PwKTft": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_FAQ9xH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Restore your Barrier System",
+            "heading_size": "h1"
+          }
+        },
+        "description_yQT6fD": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Highly concentrated colostrum powder sourced from the first milking of  cows from American family dairy farms, our colostrum is a powerhouse of natural immunity boosters, digestive enzymes, and energy enhancers. It's designed to fortify your body's natural defenses, from the foundational  barrier to the critical gut linings.<\/p><h3>The Original Superfood<\/h3><p>Millions have experienced the transformative benefits of Bovine Colostrum, the original superfood essential for thriving health. Used for over a century, Bovine Colostrum supports comprehensive wellness restoration.<\/p><p>Backed by over 5,000 clinical studies, it delivers unmatched immune support, enhanced digestion, quicker recovery, and boosted energy. Endorsed by medical professionals, Bovine Colostrum is a trusted choice for those seeking effective natural health solutions. Discover more from doctors here: See link here.<\/p>"
+          }
+        },
+        "button_wy8phd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FAQ9xH",
+        "description_yQT6fD",
+        "button_wy8phd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/unnamed_1_1_4.png",
+        "top_image": "shopify:\/\/shop_images\/Ellipse_6.png",
+        "bottom_image": "shopify:\/\/shop_images\/Vector_4.png",
+        "height": "adapt",
+        "section_type": "default",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1f08ff43-4df5-479c-80f8-1911f19ab1f5",
+        "color_scheme": "scheme-1f08ff43-4df5-479c-80f8-1911f19ab1f5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "e960ab78-0819-4bda-bf9e-6a4e3aad2d0e": {
       "type": "multicolumn",
       "blocks": {
@@ -859,6 +908,7 @@
     "da7d41f3-f475-4488-b28f-adf17d5dfb94",
     "image_banner_nAaCrK",
     "hero_cmzrDw",
+    "image_with_text_PwKTft",
     "e960ab78-0819-4bda-bf9e-6a4e3aad2d0e",
     "ecfa2d39-b0bc-4aa0-9763-dd7c882de4ba",
     "68aeac51-aaba-4bb5-a1ef-c373be4e6939",
