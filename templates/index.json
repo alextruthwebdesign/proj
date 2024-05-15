@@ -55,7 +55,45 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 52,
-        "padding_bottom": 36
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_nAaCrK": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_nCXr8w": {
+          "type": "heading",
+          "settings": {
+            "heading": "Favor’s Unique Promise",
+            "heading_size": "h1"
+          }
+        },
+        "text_dcRrhw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Favor is the only brand with 100% Transparent Sourcing, meaning we have been to the farms where our Colostrum comes from, have partnered with the drying plant to ensure the lowest possible heat is used when converting to a powder, and verified that we are only using Colostrum from the First Milking. And because we own our own manufacturing facilities, we are able to uphold quality, value, and transparency through the entire process.<\/p><p>Every batch is third party tested for the crucial bioactives and is tested through every step of the process to ensure you only receive the best quality Colostrum on the Market.<\/p><ul><li>60-day money back guarantee<\/li><li>Third party tested<\/li><li>Produced in GMP facility<\/li><li>1st Milking Colostrum<\/li><li>100% Transparent Supply Chain<\/li><li>Gluten-Free<\/li><li>Antibiotic-free<\/li><li>Hormone-Free<\/li><li>RBST (RBGH) free<\/li><\/ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nCXr8w",
+        "text_dcRrhw"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/unnamed_1_1_3.png",
+        "top_image": "shopify:\/\/shop_images\/Ellipse_4.png",
+        "bottom_image": "shopify:\/\/shop_images\/Ellipse_5.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-08ac5873-e430-475b-b486-80a2a16e2b63",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "e960ab78-0819-4bda-bf9e-6a4e3aad2d0e": {
@@ -318,35 +356,6 @@
         "padding_bottom": 36
       }
     },
-    "4b736c11-a17b-4b97-a3cf-55027f5bc97f": {
-      "type": "image-banner",
-      "blocks": {
-        "template--19863657906450__4b736c11-a17b-4b97-a3cf-55027f5bc97f-16892718481cb3c819-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "We believe you deserve to live life to the fullest.",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__4b736c11-a17b-4b97-a3cf-55027f5bc97f-16892718481cb3c819-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/AdobeStock_323895845_Preview_1.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "7ce360c0-1ab9-49f7-9767-cdac9b299936": {
       "type": "image-with-text",
       "blocks": {
@@ -571,43 +580,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 100
-      }
-    },
-    "f53ead40-58b1-4639-9e11-0be95939d341": {
-      "type": "image-banner",
-      "blocks": {
-        "template--19863657906450__f53ead40-58b1-4639-9e11-0be95939d341-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stop living in survival mode.",
-            "heading_size": "h2"
-          }
-        },
-        "template--19863657906450__f53ead40-58b1-4639-9e11-0be95939d341-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Experience a life transformed after incorporating our product into your daily routine. Strengthen your immune system, boost energy levels, improve digestion, and enjoy faster recovery.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__f53ead40-58b1-4639-9e11-0be95939d341-heading-1",
-        "template--19863657906450__f53ead40-58b1-4639-9e11-0be95939d341-text-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/AdobeStock_386437802_Preview.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "44414b88-f353-4591-8613-09caa180ac70": {
@@ -869,18 +841,17 @@
   "order": [
     "hero_BR3VXD",
     "da7d41f3-f475-4488-b28f-adf17d5dfb94",
+    "image_banner_nAaCrK",
     "e960ab78-0819-4bda-bf9e-6a4e3aad2d0e",
     "ecfa2d39-b0bc-4aa0-9763-dd7c882de4ba",
     "68aeac51-aaba-4bb5-a1ef-c373be4e6939",
     "2ada50d4-60ed-4bd2-8e49-61c4c43c638d",
     "19b35f33-c5e6-40d6-90c2-259267be5b6b",
-    "4b736c11-a17b-4b97-a3cf-55027f5bc97f",
     "7ce360c0-1ab9-49f7-9767-cdac9b299936",
     "rich-text-1",
     "multicolumn",
     "48d962b6-873b-46ca-8cfc-62266f2018cb",
     "8c144b78-fda1-45d6-aefb-6093511d4b47",
-    "f53ead40-58b1-4639-9e11-0be95939d341",
     "44414b88-f353-4591-8613-09caa180ac70",
     "3af8b334-ff3b-43be-a534-142968184453",
     "fba3c4e6-a564-4823-9073-73ba08f1cc0e",
