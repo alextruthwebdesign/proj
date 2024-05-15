@@ -1,0 +1,82 @@
+<script src="{{ 'reviews-slider.js' | asset_url }}" defer="defer"></script>
+
+
+<div class="reviews-slider">
+    <div class="reviews-wrapper">
+        <div class="keen-slider">
+            {%- for block in section.blocks -%}
+                {% case block.type %}
+                  {%- when 'review' -%}
+                    <div class="keen-slider__slide">
+                      <div class="card-content">
+                        <div class="stars">
+                          {% render 'icon-star' %}
+                          {% render 'icon-star' %}
+                          {% render 'icon-star' %}
+                          {% render 'icon-star' %}
+                          {% render 'icon-star' %}
+                        </div>
+                        {% if block.settings.title != blank %}
+                          <h3>{{ block.settings.title }}</h3>
+                        {% endif %}
+                        {% if block.settings.description != blank %}
+                          <p>{{ block.settings.description }}</p>
+                        {% endif %}
+                        {% if block.settings.author != blank %}
+                          <span>{{ block.settings.author }}</span>
+                        {% endif %}
+                      </div>
+                    </div>
+                {% endcase %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Reviews",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    
+  ],
+  "blocks": [
+    {
+  "type": "review",
+  "name": "Review",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "author",
+      "label": "Author"
+    }
+    
+  ]
+}
+  ],
+  "presets": [
+    {
+      "name": "Reviews",
+      "blocks": [
+        
+      ]
+    }
+  ]
+}
+{% endschema %}
+    

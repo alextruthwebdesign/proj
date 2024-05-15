@@ -447,3 +447,41 @@
 .products-slider .slider-arrows button svg {
   @apply w-[18px] lg:w-[24px];
 }
+
+/* Reviews Slider */
+
+.reviews-slider {
+  @apply px-[10px] overflow-hidden pt-[40px] sm:pt-[60px]  lg:pt-[100px];
+}
+
+.reviews-slider .keen-slider {
+  overflow: visible !important;
+}
+.reviews-slider .card-content {
+  @apply border-[#E3D2B5] border-[1px] rounded-[40px] p-[20px] sm:px-[40px] sm:py-[40px] lg:px-[51px] lg:pt-[58px] lg:pb-[51px];
+}
+.reviews-slider .card-content .stars {
+  @apply flex items-center gap-x-[5px] mb-[14px];
+}
+
+.reviews-slider .card-content h3 {
+  @apply text-[20px] lg:text-[24px] leading-[25px] lg:leading-[30px] font-[600] mb-[10px] sm:mb-[18px] lg:mb-[28px];
+  font-family: var(--font-heading-family);
+  letter-spacing: 0px;
+}
+
+.reviews-slider .card-content p {
+  @apply text-[16px] sm:text-[18px] leading-[25px] sm:leading-[28.8px] text-[#202020] mb-[10px] sm:mb-[22px];
+  font-family: var(--font-heading-family);
+  letter-spacing: 0px;
+}
+
+.reviews-slider .card-content span {
+  @apply text-[14px] sm:text-[16px] leading-[18px] sm:leading-[20px] text-[#A56550] font-[600] uppercase relative pl-[15px] ml-[9px];
+  font-family: var(--font-heading-family);
+  letter-spacing: 0px;
+}
+.reviews-slider .card-content span::before {
+  @apply w-[5px] h-[5px] left-0 rounded-full bg-[#A56550] absolute top-[50%] translate-y-[-50%];
+  content: "";
+}

@@ -295,6 +295,51 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "reviews_RVDekC": {
+      "type": "reviews",
+      "blocks": {
+        "review_6y6exn": {
+          "type": "review",
+          "settings": {
+            "title": "Awesome product!",
+            "description": "“I add this to my coffee once it has cooked down a bit. At first I thought it was a little hard to mix in but I use a frother and it works great to mix it in. There is no taste and that is a huge benefit for me!”",
+            "author": "Dillon"
+          }
+        },
+        "review_aLp8W7": {
+          "type": "review",
+          "settings": {
+            "title": "This stuff is amazing!!!!!",
+            "description": "“I bought this with my own money after seeing ads for similar products. This stuff is amazing. Just 3 days of using this I have more energy and feel so much better. I am more focused and have less brain fog.”",
+            "author": "Nancy Shadowens"
+          }
+        },
+        "review_Le49Ag": {
+          "type": "review",
+          "settings": {
+            "title": "Dry scooping is the way to go!",
+            "description": "“I love Favor!! And I love dry scooping it! I actually crave it! I have noticed an increase in energy and skin issues since starting this over a month ago!! Definitely will be buying in the future!”",
+            "author": "Amy"
+          }
+        },
+        "review_rWCAbn": {
+          "type": "review",
+          "settings": {
+            "title": "Awesome product!",
+            "description": "“I add this to my coffee once it has cooked down a bit. At first I thought it was a little hard to mix in but I use a frother and it works great to mix it in. There is no taste and that is a huge benefit for me!”",
+            "author": "Dillon"
+          }
+        }
+      },
+      "block_order": [
+        "review_6y6exn",
+        "review_aLp8W7",
+        "review_Le49Ag",
+        "review_rWCAbn"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -304,6 +349,7 @@
     "hero_cmzrDw",
     "image_with_text_PwKTft",
     "products_slider_hXXHeR",
-    "image_with_text_xJAhKj"
+    "image_with_text_xJAhKj",
+    "reviews_RVDekC"
   ]
 }
