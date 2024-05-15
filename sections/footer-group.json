@@ -8,8 +8,7 @@
         "7d47ae12-064c-4136-8bf6-8fd7305325e0": {
           "type": "link_list",
           "settings": {
-            "heading": "",
-            "menu": "footer"
+            "menu": "footer-menu-v2"
           }
         }
       },
@@ -17,7 +16,9 @@
         "7d47ae12-064c-4136-8bf6-8fd7305325e0"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-b9e01c7d-0b17-4a30-a5c0-2185ab81fe64",
+        "image": "shopify:\/\/shop_images\/Logo_3.png",
+        "copyright": "© Copyright 2024, Favor. Terms & Conditions",
         "newsletter_enable": false,
         "newsletter_heading": "Join our email list",
         "enable_follow_on_shop": false,
@@ -27,7 +28,7 @@
         "payment_enable": false,
         "show_policy": false,
         "margin_top": 0,
-        "padding_top": 48,
+        "padding_top": 56,
         "padding_bottom": 48
       }
     }

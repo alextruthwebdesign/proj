@@ -48,6 +48,46 @@
     and has_social_icons == true
     or section.settings.enable_follow_on_shop
   -%}
+    <div class="footer-content">
+      {% if section.settings.image %}
+        <div class="logo-wrapper">
+          <img
+          src="{{ section.settings.image | image_url: width: 127 }}"
+          alt=""
+          width="127"
+          height="29"
+          loading="lazy"
+      >
+        </div>
+      {% endif %}
+     
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'link_list' -%}
+              <div class="footer-menu">
+                <ul>
+              {%- if block.settings.menu != blank -%}
+                {%- for link in block.settings.menu.links -%}
+                  <li>
+                    <a
+                      href="{{ link.url }}"
+                      class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
+                    >
+                      {{ link.title }}
+                    </a>
+                  </li>
+                {%- endfor -%}
+                </ul>
+              {% endif %}
+               </div>
+          {% endcase %}
+        {% endfor %}
+      {%- if section.settings.show_social and has_social_icons -%}
+        <div class="footer-socials">
+          {%- render 'social-icons', class: 'footer__list-social' -%}
+        </div>
+      {%- endif -%}
+    </div>
     {%- unless only_empty_brand -%}
       <div class="footer__content-top page-width">
         {%- if section.blocks.size > 0 -%}
@@ -86,21 +126,7 @@
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
                     </div>
-                  {%- when 'link_list' -%}
-                    {%- if block.settings.menu != blank -%}
-                      <ul class="footer-block__details-content list-unstyled">
-                        {%- for link in block.settings.menu.links -%}
-                          <li>
-                            <a
-                              href="{{ link.url }}"
-                              class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
-                            >
-                              {{ link.title }}
-                            </a>
-                          </li>
-                        {%- endfor -%}
-                      </ul>
-                    {%- endif -%}
+               
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
                       {%- if settings.brand_image != blank -%}
@@ -239,9 +265,7 @@
             </div>
           {%- endif -%}
 
-          {%- if section.settings.show_social and has_social_icons -%}
-            {%- render 'social-icons', class: 'footer__list-social' -%}
-          {%- endif -%}
+       
         </div>
       </div>
     {%- endunless -%}
@@ -294,28 +318,14 @@
         {%- endif -%}
       </div>
     </div>
-    <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
-      <div class="footer__copyright caption">
-        <small class="copyright__content"
-          >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
-        </small>
-        <small class="copyright__content">{{ powered_by_link }}</small>
-        {%- if section.settings.show_policy -%}
-          <ul class="policies list-unstyled">
-            {%- for policy in shop.policies -%}
-              {%- if policy != blank -%}
-                <li>
-                  <small class="copyright__content"
-                    ><a href="{{ policy.url }}">{{ policy.title }}</a></small
-                  >
-                </li>
-              {%- endif -%}
-            {%- endfor -%}
-          </ul>
-        {%- endif -%}
-      </div>
-    </div>
+    
   </div>
+  {% if section.settings.copyright != blank %}
+    <div class="copyright">
+      <p>{{ section.settings.copyright }}</p>
+    </div>
+  {% endif %}
+
 </footer>
 
 {% schema %}
@@ -328,13 +338,9 @@
     {
       "type": "link_list",
       "name": "t:sections.footer.blocks.link_list.name",
+      "limit":1,
       "settings": [
-        {
-          "type": "inline_richtext",
-          "id": "heading",
-          "default": "Quick links",
-          "label": "t:sections.footer.blocks.link_list.settings.heading.label"
-        },
+        
         {
           "type": "link_list",
           "id": "menu",
@@ -432,6 +438,16 @@
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
     },
+    {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Logo"
+        },
+        {
+          "type": "text",
+          "id": "copyright",
+          "label": "Copyright"
+        },
     {
       "type": "header",
       "content": "t:sections.footer.settings.header__1.content",

@@ -105,9 +105,9 @@
     "social_instagram_link": "https:\/\/www.instagram.com\/tryfavor\/",
     "social_youtube_link": "",
     "social_tiktok_link": "https:\/\/www.tiktok.com\/@tryfavor",
-    "social_twitter_link": "",
+    "social_twitter_link": "https:\/\/www.tiktok.com\/@tryfavor",
     "social_snapchat_link": "",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/tryfavorusa\/",
+    "social_pinterest_link": "",
     "social_tumblr_link": "",
     "social_vimeo_link": "",
     "predictive_search_enabled": false,
@@ -294,6 +294,17 @@
           "button_label": "#a8978c",
           "secondary_button_label": "#ffffff",
           "shadow": "#11151c"
+        }
+      },
+      "scheme-b9e01c7d-0b17-4a30-a5c0-2185ab81fe64": {
+        "settings": {
+          "background": "#f2eadc",
+          "background_gradient": "",
+          "text": "#202020",
+          "button": "#a9978d",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#a9978d",
+          "shadow": "#202020"
         }
       }
     }
