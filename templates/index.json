@@ -340,6 +340,46 @@
       ],
       "settings": {
       }
+    },
+    "image_with_text_W8wLtX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_pNBDQB": {
+          "type": "heading",
+          "settings": {
+            "heading": "A scoop a day, keeps the doctor away",
+            "heading_size": "h0"
+          }
+        },
+        "description_9MLzbx": {
+          "type": "description",
+          "settings": {
+            "description": "<ul><li>Boost immunity<\/li><li>Recover Faster<\/li><li>Restore your barriers<\/li><li>Skin, Hair, and Nail Growth<\/li><li>Balance digestion<\/li><li>Anti-aging<\/li><li>Boost natural energy<\/li><li>Simplify your Cabinet<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pNBDQB",
+        "description_9MLzbx"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/unnamed_1_1_6.png",
+        "top_image": "shopify:\/\/shop_images\/Vector_4_1.png",
+        "bottom_image": "shopify:\/\/shop_images\/Ellipse_2_3.png",
+        "height": "adapt",
+        "section_type": "default",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2e93d9ca-66e9-48c7-9434-6d66e67a4e01",
+        "color_scheme": "scheme-2e93d9ca-66e9-48c7-9434-6d66e67a4e01",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -350,6 +390,7 @@
     "image_with_text_PwKTft",
     "products_slider_hXXHeR",
     "image_with_text_xJAhKj",
-    "reviews_RVDekC"
+    "reviews_RVDekC",
+    "image_with_text_W8wLtX"
   ]
 }
