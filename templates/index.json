@@ -215,745 +215,85 @@
       "settings": {
       }
     },
-    "e960ab78-0819-4bda-bf9e-6a4e3aad2d0e": {
-      "type": "multicolumn",
+    "image_with_text_xJAhKj": {
+      "type": "image-with-text",
       "blocks": {
-        "template--19863657906450__e960ab78-0819-4bda-bf9e-6a4e3aad2d0e-1689271510a40673fa-0": {
-          "type": "column",
+        "heading_gr7qJR": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/intestine.png",
-            "title": "<strong>Heal Your Gut<\/strong>",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "heading": "Lean Health For You & Your Family",
+            "heading_size": "h1"
           }
         },
-        "template--19863657906450__e960ab78-0819-4bda-bf9e-6a4e3aad2d0e-1689271510a40673fa-1": {
-          "type": "column",
+        "description_BWwKrz": {
+          "type": "description",
           "settings": {
-            "image": "shopify:\/\/shop_images\/heart.png",
-            "title": "<strong>Boost Your Immunity<\/strong>",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "description": "<p>Colostrum is the first breastmilk that mammals consume.<\/p><p>Favor Colostrum is sourced within 6 hours post-birth, capturing the highest potency and concentration of nutrients possible <\/p><p>Favor Colostrum is gently dehydrated using low heat to maintain the bioavailability of over 400 nutrients, making it the most complete in the market.<\/p><p>Favor’s First Milking, Full-Fat Spectrum Colostrum provides complete support for your gut barrier, immune health, hair and skin complexion.<\/p><h3>At Favor our Mission is - To Glorify God by creating Lean Healthy Products that empower families to live and lead faithfully.<\/h3><p>That’s why we chose Colostrum as our core ingredient as it’s a superfood that can be used to restore your entire Family’s health.<\/p>"
           }
         },
-        "template--19863657906450__e960ab78-0819-4bda-bf9e-6a4e3aad2d0e-1689271510a40673fa-2": {
-          "type": "column",
+        "button_Uibfd3": {
+          "type": "button",
           "settings": {
-            "image": "shopify:\/\/shop_images\/thunderbolt.png",
-            "title": "<strong>Increase Your Energy<\/strong>",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "button_label": "Shop now",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        },
+        "content_LePwXp": {
+          "type": "content",
+          "settings": {
+            "heading": "Mix one scoop of Flavor Colostrum",
+            "image": "shopify:\/\/shop_images\/unnamed_1_1_5.png"
+          }
+        },
+        "content_hyiUiE": {
+          "type": "content",
+          "settings": {
+            "heading": "With one glass of your favorite beverage",
+            "image": "shopify:\/\/shop_images\/unnamed_1_2.png"
+          }
+        },
+        "content_Ny6r74": {
+          "type": "content",
+          "settings": {
+            "heading": "Shake or stir until it dissolves",
+            "image": "shopify:\/\/shop_images\/unnamed_1_3.png"
+          }
+        },
+        "content_67QUBJ": {
+          "type": "content",
+          "settings": {
+            "heading": "Enjoy the health benefits of Flavor Colostrum",
+            "image": "shopify:\/\/shop_images\/unnamed_1_4.png"
           }
         }
       },
       "block_order": [
-        "template--19863657906450__e960ab78-0819-4bda-bf9e-6a4e3aad2d0e-1689271510a40673fa-0",
-        "template--19863657906450__e960ab78-0819-4bda-bf9e-6a4e3aad2d0e-1689271510a40673fa-1",
-        "template--19863657906450__e960ab78-0819-4bda-bf9e-6a4e3aad2d0e-1689271510a40673fa-2"
+        "heading_gr7qJR",
+        "description_BWwKrz",
+        "button_Uibfd3",
+        "content_LePwXp",
+        "content_hyiUiE",
+        "content_Ny6r74",
+        "content_67QUBJ"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "image": "shopify:\/\/shop_images\/Mask_group_2.png",
+        "top_image": "shopify:\/\/shop_images\/Ellipse_2_2.png",
+        "bottom_image": "shopify:\/\/shop_images\/Vector_3.png",
+        "height": "adapt",
+        "section_type": "centered",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2e93d9ca-66e9-48c7-9434-6d66e67a4e01",
+        "color_scheme": "scheme-2e93d9ca-66e9-48c7-9434-6d66e67a4e01",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 100,
         "padding_bottom": 100
-      }
-    },
-    "ecfa2d39-b0bc-4aa0-9763-dd7c882de4ba": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19863657906450__ecfa2d39-b0bc-4aa0-9763-dd7c882de4ba-1689631294fb6b04d7-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "What's holding you back from the <strong>best health <\/strong>of your life?",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__ecfa2d39-b0bc-4aa0-9763-dd7c882de4ba-1689631294fb6b04d7-0"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "68aeac51-aaba-4bb5-a1ef-c373be4e6939": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--19863657906450__68aeac51-aaba-4bb5-a1ef-c373be4e6939-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "What you get",
-            "heading_size": "h1"
-          }
-        },
-        "template--19863657906450__68aeac51-aaba-4bb5-a1ef-c373be4e6939-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>• Premium bovine colostrum powder packed with essential nutrients and immune-boosting compounds.<br\/>• Strengthened immune system for enhanced protection.<br\/>• Increased energy and vitality for a vibrant lifestyle.<br\/>• Improved digestion and overall well-being.<br\/>• Faster recovery for an active and fulfilling life.<br\/><br\/><strong>Take the first step<\/strong> towards a healthier, more vibrant you with our premium bovine colostrum powder.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "93792978-2830-4803-a80e-5f082b560cc1": {
-          "type": "button",
-          "settings": {
-            "button_label": "BUY NOW",
-            "button_link": "shopify:\/\/products\/favor-bovine-colostrum-powder",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__68aeac51-aaba-4bb5-a1ef-c373be4e6939-heading-1",
-        "template--19863657906450__68aeac51-aaba-4bb5-a1ef-c373be4e6939-text-1",
-        "93792978-2830-4803-a80e-5f082b560cc1"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "adapt",
-        "section_type": "default",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "2ada50d4-60ed-4bd2-8e49-61c4c43c638d": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19863657906450__2ada50d4-60ed-4bd2-8e49-61c4c43c638d-1689271510a40673fa-0": {
-          "type": "column",
-          "settings": {
-            "title": "Feeling constantly fatigued",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19863657906450__2ada50d4-60ed-4bd2-8e49-61c4c43c638d-1689271510a40673fa-1": {
-          "type": "column",
-          "settings": {
-            "title": "Getting sick frequently",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19863657906450__2ada50d4-60ed-4bd2-8e49-61c4c43c638d-1689271510a40673fa-2": {
-          "type": "column",
-          "settings": {
-            "title": "Struggling with digestive issues",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "ffa60b57-cb12-42dc-b43f-d05c4586a9c2": {
-          "type": "column",
-          "settings": {
-            "title": "Feeling self-conscious about aging signs",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "481d2a15-c3a3-454d-92cb-c7a495350ba0": {
-          "type": "column",
-          "settings": {
-            "title": "Struggling to achieve desired fitness goals",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "741430da-d075-42a0-8bca-b892f24a8fec": {
-          "type": "column",
-          "settings": {
-            "title": "Experiencing brain fog",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__2ada50d4-60ed-4bd2-8e49-61c4c43c638d-1689271510a40673fa-0",
-        "template--19863657906450__2ada50d4-60ed-4bd2-8e49-61c4c43c638d-1689271510a40673fa-1",
-        "template--19863657906450__2ada50d4-60ed-4bd2-8e49-61c4c43c638d-1689271510a40673fa-2",
-        "ffa60b57-cb12-42dc-b43f-d05c4586a9c2",
-        "481d2a15-c3a3-454d-92cb-c7a495350ba0",
-        "741430da-d075-42a0-8bca-b892f24a8fec"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "shopify:\/\/products\/favor-bovine-colostrum-powder",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 100
-      }
-    },
-    "19b35f33-c5e6-40d6-90c2-259267be5b6b": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--19863657906450__19b35f33-c5e6-40d6-90c2-259267be5b6b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "We believe you deserve to <strong>live life to the fullest<\/strong>.",
-            "heading_size": "h1"
-          }
-        },
-        "template--19863657906450__19b35f33-c5e6-40d6-90c2-259267be5b6b-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--19863657906450__19b35f33-c5e6-40d6-90c2-259267be5b6b-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__19b35f33-c5e6-40d6-90c2-259267be5b6b-heading-1",
-        "template--19863657906450__19b35f33-c5e6-40d6-90c2-259267be5b6b-text-1",
-        "template--19863657906450__19b35f33-c5e6-40d6-90c2-259267be5b6b-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/EF7A6873.jpg",
-        "height": "small",
-        "section_type": "default",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "7ce360c0-1ab9-49f7-9767-cdac9b299936": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--19863657906450__7ce360c0-1ab9-49f7-9767-cdac9b299936-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "So, what  exactly is colostrum powder?",
-            "heading_size": "h1"
-          }
-        },
-        "template--19863657906450__7ce360c0-1ab9-49f7-9767-cdac9b299936-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Bovine colostrum powder is a nutrient-rich substance produced by cows shortly after giving birth. It serves as the first food for newborns and is packed with essential vitamins, minerals, proteins, and antibodies, offering numerous health benefits.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--19863657906450__7ce360c0-1ab9-49f7-9767-cdac9b299936-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "LEARN MORE",
-            "button_link": "shopify:\/\/pages\/colostrum-benefits",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__7ce360c0-1ab9-49f7-9767-cdac9b299936-heading-1",
-        "template--19863657906450__7ce360c0-1ab9-49f7-9767-cdac9b299936-text-1",
-        "template--19863657906450__7ce360c0-1ab9-49f7-9767-cdac9b299936-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Tan_Favor_Final_-_Larger_Background.png",
-        "height": "adapt",
-        "section_type": "default",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich-text-1": {
-      "type": "rich-text",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>THE REVIEWS<\/p>"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Testimonials",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "heading"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "inverse",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 20
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column": {
-          "type": "column",
-          "settings": {
-            "title": "\"This stuff is amazing.\"",
-            "text": "<p>\"Just 3 days of using this I have more energy and feel so much better.\" - Nancy<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "\"I’ve seen legit results.\"",
-            "text": "<p>\"I’ve always been a skeptic of supplements, but the amount of mental clarity, energy, and improved gut health (just to name a few) I’ve experienced is incredible.\" - Samantha<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-2": {
-          "type": "column",
-          "settings": {
-            "title": "\"Best choice I made was to try this.\"",
-            "text": "<p>\"I have noticed a huge difference in my gut health. Less bloating and better digestion.\" - Kacee<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column",
-        "column-1",
-        "column-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "inverse",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "48d962b6-873b-46ca-8cfc-62266f2018cb": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19863657906450__48d962b6-873b-46ca-8cfc-62266f2018cb-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Feel the <strong>favor<\/strong>.",
-            "heading_size": "h1"
-          }
-        },
-        "template--19863657906450__48d962b6-873b-46ca-8cfc-62266f2018cb-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>One simple ingredient for huge health benefits.<\/h3>"
-          }
-        },
-        "template--19863657906450__48d962b6-873b-46ca-8cfc-62266f2018cb-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__48d962b6-873b-46ca-8cfc-62266f2018cb-heading-1",
-        "template--19863657906450__48d962b6-873b-46ca-8cfc-62266f2018cb-text-1",
-        "template--19863657906450__48d962b6-873b-46ca-8cfc-62266f2018cb-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
-    "8c144b78-fda1-45d6-aefb-6093511d4b47": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19863657906450__8c144b78-fda1-45d6-aefb-6093511d4b47-column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Add to daily routine",
-            "text": "<p>Add Favor colostrum powder to your daily routine.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19863657906450__8c144b78-fda1-45d6-aefb-6093511d4b47-column-2": {
-          "type": "column",
-          "settings": {
-            "title": "Experience the benefits",
-            "text": "<p>Reap the benefits of enhanced immunity, increased energy, improved digestion, and more.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19863657906450__8c144b78-fda1-45d6-aefb-6093511d4b47-column-3": {
-          "type": "column",
-          "settings": {
-            "title": "Live your best life",
-            "text": "<p>Enjoy a vibrant and active life with optimal health. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__8c144b78-fda1-45d6-aefb-6093511d4b47-column-1",
-        "template--19863657906450__8c144b78-fda1-45d6-aefb-6093511d4b47-column-2",
-        "template--19863657906450__8c144b78-fda1-45d6-aefb-6093511d4b47-column-3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "TELL ME MORE",
-        "button_link": "shopify:\/\/pages\/6-hour-milking",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 100
-      }
-    },
-    "44414b88-f353-4591-8613-09caa180ac70": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--19863657906450__44414b88-f353-4591-8613-09caa180ac70-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "We're experts in manufacturing with a passion for health.",
-            "heading_size": "h1"
-          }
-        },
-        "template--19863657906450__44414b88-f353-4591-8613-09caa180ac70-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>When we first tried colostrum powder, we knew it would be a gamechanger for our health and wellness. With a background in manufacturing and a dedication to producing high-quality products, we knew we could create an even better colostrum powder than what's out there.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--19863657906450__44414b88-f353-4591-8613-09caa180ac70-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "WHO WE ARE",
-            "button_link": "shopify:\/\/pages\/who-we-are",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__44414b88-f353-4591-8613-09caa180ac70-heading-1",
-        "template--19863657906450__44414b88-f353-4591-8613-09caa180ac70-text-1",
-        "template--19863657906450__44414b88-f353-4591-8613-09caa180ac70-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_7590.jpg",
-        "height": "adapt",
-        "section_type": "default",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "3af8b334-ff3b-43be-a534-142968184453": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19863657906450__3af8b334-ff3b-43be-a534-142968184453-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "We're experts in manufacturing with a passion for health.",
-            "heading_size": "h1"
-          }
-        },
-        "template--19863657906450__3af8b334-ff3b-43be-a534-142968184453-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>When we first tried colostrum powder, we knew it would be a gamechanger for our health and wellness. With a background in manufacturing and a dedication to producing high-quality products, we knew we could create an even better colostrum powder than what's out there.<\/p>"
-          }
-        },
-        "template--19863657906450__3af8b334-ff3b-43be-a534-142968184453-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "CHECK OUT FAVOR",
-            "button_link": "shopify:\/\/products\/favor-bovine-colostrum-powder",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__3af8b334-ff3b-43be-a534-142968184453-heading-1",
-        "template--19863657906450__3af8b334-ff3b-43be-a534-142968184453-text-1",
-        "template--19863657906450__3af8b334-ff3b-43be-a534-142968184453-button-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "fba3c4e6-a564-4823-9073-73ba08f1cc0e": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--19863657906450__fba3c4e6-a564-4823-9073-73ba08f1cc0e-collapsible_row-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Expertise and Experience",
-            "icon": "check_mark",
-            "row_content": "<p>With years of experience in the industry, we have honed our expertise in manufacturing top-notch supplements. You can trust our knowledge and dedication to providing you with the very best.<\/p>",
-            "page": ""
-          }
-        },
-        "template--19863657906450__fba3c4e6-a564-4823-9073-73ba08f1cc0e-collapsible_row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Family Always Comes First",
-            "icon": "check_mark",
-            "row_content": "<p>We are a family-owned company, and our commitment to quality reflects the standards we hold for our own loved ones. We make products that we would proudly give to our own families.<\/p>",
-            "page": ""
-          }
-        },
-        "template--19863657906450__fba3c4e6-a564-4823-9073-73ba08f1cc0e-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Transparent and Ethical Sourcing",
-            "icon": "check_mark",
-            "row_content": "<p>We believe in transparency and ethical practices. Our ingredients are carefully sourced from reputable suppliers who share our commitment to sustainability and responsible sourcing.<\/p>",
-            "page": ""
-          }
-        },
-        "template--19863657906450__fba3c4e6-a564-4823-9073-73ba08f1cc0e-collapsible_row-4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "100% Customer Satisfaction",
-            "icon": "check_mark",
-            "row_content": "<p>Your satisfaction is our utmost priority. We strive to provide exceptional customer service and support, ensuring that your experience with our products and brand is nothing short of outstanding.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__fba3c4e6-a564-4823-9073-73ba08f1cc0e-collapsible_row-1",
-        "template--19863657906450__fba3c4e6-a564-4823-9073-73ba08f1cc0e-collapsible_row-2",
-        "template--19863657906450__fba3c4e6-a564-4823-9073-73ba08f1cc0e-collapsible_row-3",
-        "template--19863657906450__fba3c4e6-a564-4823-9073-73ba08f1cc0e-collapsible_row-4"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Our promise to you:",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "ef19893b-3a15-4859-90da-d724b27baf0c": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--19863657906450__ef19893b-3a15-4859-90da-d724b27baf0c-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stop living in survival mode.",
-            "heading_size": "h1"
-          }
-        },
-        "template--19863657906450__ef19893b-3a15-4859-90da-d724b27baf0c-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Experience a life transformed after incorporating our product into your daily routine. Strengthen your immune system, boost energy levels, improve digestion, and enjoy faster recovery.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--19863657906450__ef19893b-3a15-4859-90da-d724b27baf0c-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "BUY NOW",
-            "button_link": "shopify:\/\/products\/favor-bovine-colostrum-powder",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__ef19893b-3a15-4859-90da-d724b27baf0c-heading-1",
-        "template--19863657906450__ef19893b-3a15-4859-90da-d724b27baf0c-text-1",
-        "template--19863657906450__ef19893b-3a15-4859-90da-d724b27baf0c-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/EF7A7477.jpg",
-        "height": "small",
-        "section_type": "default",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "8d0abb7d-d6b3-4e36-88f3-a24fe282a296": {
-      "type": "newsletter",
-      "blocks": {
-        "template--19863657906450__8d0abb7d-d6b3-4e36-88f3-a24fe282a296-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails and get 20% off your order.​​​​​​​",
-            "heading_size": "h2"
-          }
-        },
-        "template--19863657906450__8d0abb7d-d6b3-4e36-88f3-a24fe282a296-paragraph-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new products and exclusive offers. No boring emails, we promise.<\/p>"
-          }
-        },
-        "template--19863657906450__8d0abb7d-d6b3-4e36-88f3-a24fe282a296-email_form-1": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--19863657906450__8d0abb7d-d6b3-4e36-88f3-a24fe282a296-heading-1",
-        "template--19863657906450__8d0abb7d-d6b3-4e36-88f3-a24fe282a296-paragraph-1",
-        "template--19863657906450__8d0abb7d-d6b3-4e36-88f3-a24fe282a296-email_form-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "170567827904cde49c": {
-      "type": "apps",
-      "blocks": {
-        "instafeed_app_block_6Jm9F3": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "alignment": "center",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_6Jm9F3"
-      ],
-      "settings": {
-        "include_margins": true
       }
     }
   },
@@ -964,21 +304,6 @@
     "hero_cmzrDw",
     "image_with_text_PwKTft",
     "products_slider_hXXHeR",
-    "e960ab78-0819-4bda-bf9e-6a4e3aad2d0e",
-    "ecfa2d39-b0bc-4aa0-9763-dd7c882de4ba",
-    "68aeac51-aaba-4bb5-a1ef-c373be4e6939",
-    "2ada50d4-60ed-4bd2-8e49-61c4c43c638d",
-    "19b35f33-c5e6-40d6-90c2-259267be5b6b",
-    "7ce360c0-1ab9-49f7-9767-cdac9b299936",
-    "rich-text-1",
-    "multicolumn",
-    "48d962b6-873b-46ca-8cfc-62266f2018cb",
-    "8c144b78-fda1-45d6-aefb-6093511d4b47",
-    "44414b88-f353-4591-8613-09caa180ac70",
-    "3af8b334-ff3b-43be-a534-142968184453",
-    "fba3c4e6-a564-4823-9073-73ba08f1cc0e",
-    "ef19893b-3a15-4859-90da-d724b27baf0c",
-    "8d0abb7d-d6b3-4e36-88f3-a24fe282a296",
-    "170567827904cde49c"
+    "image_with_text_xJAhKj"
   ]
 }

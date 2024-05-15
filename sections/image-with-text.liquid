@@ -24,6 +24,8 @@
   endif
 -%}
 
+{% assign images_section = false %}
+
 <div class="image-with-text-section section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if section.settings.section_type == 'centered' %} image-with-text-centered {% else %} image-with-text-default {% endif %}">
   {% if section.settings.top_image != blank %}
     <div class="top-image">
@@ -93,6 +95,8 @@
           >
             {%- for block in section.blocks -%}
               {% case block.type %}
+                {%- when 'content' -%}
+                  {% assign images_section = true %}
                 {%- when 'heading' -%}
                   <h2
                     class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
@@ -133,6 +137,31 @@
         </div>
       </div>
     </div>
+   {% if images_section == true %}
+      <div class="images-section">
+        <div class="shape-container">
+          {% render 'text-with-image-shape2' %}
+        </div>
+        {%- for block in section.blocks -%}
+          {% case block.type %}
+            {%- when 'content' -%}
+              <div class="content-wrapper">
+                <div class="image-wrapper">
+                  <img
+                  src="{{ block.settings.image | image_url: width: 280 }}"
+                  alt=""
+                  width="280"
+                  height="280"
+                  loading="lazy"
+              >
+                </div>
+                <p>{{ block.settings.heading }}</p>
+              </div>
+              
+          {% endcase %}
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
 </div>
 
@@ -526,6 +555,23 @@
           "default": false,
           "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
         }
+      ]
+    },
+    {
+      "type": "content",
+      "name": "Content",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+        
       ]
     }
   ],
