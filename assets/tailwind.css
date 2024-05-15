@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply overflow-x-hidden;
+}
+
 /* Announcement Bar */
 .announcement-bar .announcement-bar__message.h5 {
   @apply text-[18px] leading-[22.5px] font-[600];
@@ -530,4 +534,34 @@
 .reviews-slider .card-content span::before {
   @apply w-[5px] h-[5px] left-0 rounded-full bg-[#A56550] absolute top-[50%] translate-y-[-50%];
   content: "";
+}
+
+/* Cta */
+
+.cta {
+  @apply px-[10px] overflow-hidden relative pt-[193px] pb-[244px];
+}
+
+#marquee {
+  @apply relative text-center mx-auto w-full h-[130px] flex items-center whitespace-nowrap z-[1];
+}
+
+#marquee a {
+  @apply pointer-events-none text-[96px] leading-[120px] text-[#202020] font-[600];
+  cursor: default;
+  text-decoration: none;
+  font-family: var(--font-heading-family);
+}
+
+#marquee a::after {
+  content: "·";
+  @apply mx-[30px];
+}
+
+.cta .btn-wrapper {
+  @apply flex justify-center mt-[29px];
+}
+
+.cta .shape-wrapper {
+  @apply absolute top-[48%] translate-y-[-50%] left-[50%] translate-x-[-50%];
 }

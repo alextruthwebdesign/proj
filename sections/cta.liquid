@@ -1,0 +1,67 @@
+<script src="{{ 'marquee.js' | asset_url }}" defer="defer"></script>
+
+
+<div class="cta">
+    <div class="cta-wrapper">
+        {% if section.settings.text_rotator != blank %}
+            {% assign textArr =  section.settings.text_rotator | split: ", " %}
+                <div id="marquee" class="reviews-slider-marquee">
+                <span style="white-space:nowrap;">
+                    {% for text in textArr  %}
+                    <a href="#">{{text}}</a>
+                    {% endfor %}
+                </span>
+                </div>
+        {% endif %}
+        {% if section.settings.button_label != blank %}
+            <div class="btn-wrapper">
+                <a class="button button--primary" href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+            </div>
+        {% endif %}
+        <div class="shape-wrapper">
+            {% render 'cta-shape' %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+      "name": "Cta",
+      "tag": "section",
+      "class": "section",
+      "disabled_on": {
+        "groups": ["header", "footer"]
+      },
+      "settings": [
+        
+        {
+              "type": "text",
+              "id": "text_rotator",
+              "label": "Text Rotator"
+            },
+            
+       {
+              "type": "text",
+              "id": "button_label",
+              "label": "Button Label"
+            },
+            {
+              "type": "url",
+              "id": "button_link",
+              "label": "Button Link"
+            }
+            
+      ],
+      "blocks": [
+       
+      ],
+      "presets": [
+        {
+          "name": "Cta",
+          "blocks": [
+            
+          ]
+        }
+      ]
+    }
+    {% endschema %}
