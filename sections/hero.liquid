@@ -1,5 +1,20 @@
 
-<div class="hero">
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+
+<div class="hero {% if section.settings.image_type == 'small' %} hero-small {% endif %} section-{{ section.id }}-padding">
     <div class="hero-wrapper">
         {% if section.settings.heading != blank %}
             <h1>{{section.settings.heading}}</h1>
@@ -13,9 +28,7 @@
         {% if section.settings.image != blank %}
            
             <div class="image-wrapper">
-                <div class="hero-shape-before">
-                    {% render 'hero-shape1' %}
-                </div>
+                
                 <img
                 src="{{ section.settings.image | image_url: width: 698 }}"
                 alt=""
@@ -23,9 +36,7 @@
                 height="598"
                 loading="lazy"
             >
-            <div class="hero-shape-after">
-                {% render 'hero-shape2' %}
-            </div>
+           
             </div>
             
         {% endif %}
@@ -47,7 +58,23 @@
           "id": "image",
           "label": "Image"
         },
+        {
+      "type": "select",
+      "id": "image_type",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        }
        
+      ],
+      "default": "default",
+      "label": "Image_Type"
+    },
         {
               "type": "text",
               "id": "heading",
@@ -68,7 +95,27 @@
               "type": "url",
               "id": "button_link",
               "label": "Button Link"
-            }
+            },
+            {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
       ],
       "blocks": [
        

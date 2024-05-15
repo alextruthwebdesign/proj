@@ -3,11 +3,14 @@
     "hero_BR3VXD": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_6.png",
+        "image": "shopify:\/\/shop_images\/Img_5.png",
+        "image_type": "small",
         "heading": "Whole Body Health, Pure Colostrum",
         "description": "<h3>Redeem Your Health and Run Your Race with Favor— Nature's First Superfood.<\/h3><p>Boost your gut health, strengthen your immune system, recover faster, and improve overall wellness with Favor’s Full-Fat Spectrum Colostrum.<\/p>",
         "button_label": "Shop Now",
-        "button_link": ""
+        "button_link": "",
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "da7d41f3-f475-4488-b28f-adf17d5dfb94": {
@@ -94,6 +97,19 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "hero_cmzrDw": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_19_1.png",
+        "image_type": "default",
+        "heading": "Simple, Potent, Proven",
+        "description": "<h3>Easily incorporate into your daily habits. <\/h3><h3>Great in smoothies, coffee, protein shakes, dry scoop or on yogurt or cereal.<\/h3>",
+        "button_label": "",
+        "button_link": "",
+        "padding_top": 20,
+        "padding_bottom": 52
       }
     },
     "e960ab78-0819-4bda-bf9e-6a4e3aad2d0e": {
@@ -842,6 +858,7 @@
     "hero_BR3VXD",
     "da7d41f3-f475-4488-b28f-adf17d5dfb94",
     "image_banner_nAaCrK",
+    "hero_cmzrDw",
     "e960ab78-0819-4bda-bf9e-6a4e3aad2d0e",
     "ecfa2d39-b0bc-4aa0-9763-dd7c882de4ba",
     "68aeac51-aaba-4bb5-a1ef-c373be4e6939",

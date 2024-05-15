@@ -64,7 +64,11 @@
 /* Hero */
 
 .hero {
-  @apply px-[10px] pt-[60px] sm:pt-[80px] lg:pt-[100px];
+  @apply px-[10px] relative z-[2];
+}
+
+.hero.hero-small {
+  @apply xl:mb-[-109px];
 }
 
 .hero .hero-wrapper {
@@ -72,35 +76,37 @@
 }
 
 .hero .hero-wrapper h1 {
-  @apply text-[40px] sm:text-[50px] lg:text-[64px] leading-[50px] sm:leading-[60px] lg:leading-[80px] font-[600] mb-[14px];
+  @apply text-[40px] sm:text-[50px] lg:text-[64px] leading-[50px] sm:leading-[60px] lg:leading-[80px] font-[600] mb-[35px];
   letter-spacing: 0px;
+}
+.hero.hero-small .hero-wrapper h1 {
+  @apply mb-[14px];
 }
 .hero .hero-wrapper .hero-description {
   @apply mb-[27px];
 }
 .hero .hero-wrapper h3 {
-  @apply text-[24px] lg:text-[32px] leading-[30px] lg:leading-[40px] font-[600] text-[#A9978D] mb-[14px];
+  @apply text-[24px] lg:text-[32px] leading-[30px] lg:leading-[40px] font-[600] text-[#A9978D];
   letter-spacing: 0px;
+}
+
+.hero.hero-small h3 {
+  @apply mb-[14px];
 }
 
 .hero .hero-wrapper p {
   @apply text-[16px] sm:text-[18px] leading-[25px] sm:leading-[28.8px] text-[#202020];
   letter-spacing: 0px;
 }
-
 .hero .hero-wrapper .image-wrapper {
-  @apply max-w-[699px] mx-auto mt-[60px] sm:mt-[80px] lg:mt-[130px] relative;
+  @apply max-w-[1162px] mx-auto relative mt-[40px] sm:mt-[60px] lg:mt-[87px];
 }
+.hero.hero-small .hero-wrapper .image-wrapper {
+  @apply max-w-[903px] xl:translate-x-[-37px] mt-[40px] md:mt-0;
+}
+
 .hero .hero-wrapper .image-wrapper img {
   @apply w-full h-full object-cover relative z-[1];
-}
-
-.hero .hero-wrapper .hero-shape-before {
-  @apply absolute top-[-129px] left-[-139px] z-[-1];
-}
-
-.hero .hero-wrapper .hero-shape-after {
-  @apply hidden sm:block absolute right-[-68px] bottom-[77px]  z-[-1];
 }
 
 /* Text With Image */
