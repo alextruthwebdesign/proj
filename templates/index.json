@@ -161,6 +161,60 @@
         "padding_bottom": 0
       }
     },
+    "products_slider_hXXHeR": {
+      "type": "products-slider",
+      "blocks": {
+        "slide_9LzhbR": {
+          "type": "slide",
+          "settings": {
+            "button_color": "#678da2",
+            "product": "favor-bovine-colostrum-powder",
+            "description": "More than your average colostrum supplement, Favor Colostrum sets a new standard."
+          }
+        },
+        "slide_GD643H": {
+          "type": "slide",
+          "settings": {
+            "button_color": "#e3d2b5",
+            "product": "favor-bovine-colostrum-powder",
+            "description": "More than your average colostrum supplement, Favor Colostrum sets a new standard."
+          }
+        },
+        "slide_xMBX3w": {
+          "type": "slide",
+          "settings": {
+            "button_color": "#a56550",
+            "product": "favor-bovine-colostrum-powder",
+            "description": "More than your average colostrum supplement, Favor Colostrum sets a new standard."
+          }
+        },
+        "slide_K9JRpW": {
+          "type": "slide",
+          "settings": {
+            "button_color": "#678da2",
+            "product": "favor-bovine-colostrum-powder",
+            "description": "More than your average colostrum supplement, Favor Colostrum sets a new standard."
+          }
+        },
+        "slide_jFEjnX": {
+          "type": "slide",
+          "settings": {
+            "button_color": "#e3d2b5",
+            "product": "favor-bovine-colostrum-powder",
+            "description": "More than your average colostrum supplement, Favor Colostrum sets a new standard."
+          }
+        }
+      },
+      "block_order": [
+        "slide_9LzhbR",
+        "slide_GD643H",
+        "slide_xMBX3w",
+        "slide_K9JRpW",
+        "slide_jFEjnX"
+      ],
+      "settings": {
+      }
+    },
     "e960ab78-0819-4bda-bf9e-6a4e3aad2d0e": {
       "type": "multicolumn",
       "blocks": {
@@ -909,6 +963,7 @@
     "image_banner_nAaCrK",
     "hero_cmzrDw",
     "image_with_text_PwKTft",
+    "products_slider_hXXHeR",
     "e960ab78-0819-4bda-bf9e-6a4e3aad2d0e",
     "ecfa2d39-b0bc-4aa0-9763-dd7c882de4ba",
     "68aeac51-aaba-4bb5-a1ef-c373be4e6939",

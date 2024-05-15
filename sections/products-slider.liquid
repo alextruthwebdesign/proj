@@ -1,0 +1,89 @@
+<script src="{{ 'products-slider.js' | asset_url }}" defer="defer"></script>
+
+
+<div class="products-slider">
+    <div class="products-slider-wrapper">
+        <div class="keen-slider">
+            {%- for block in section.blocks -%}
+                {% case block.type %}
+                    {%  when 'slide' %}
+                        <div class="keen-slider__slide">
+                            <div class="product-card">
+                                <div class="image-wrapper">
+                                    <img
+                                        src="{{ block.settings.product.featured_image | image_url: width: 345 }}"
+                                        alt="{{ block.settings.product.title | escape }}"
+                                        width="345"
+                                        height="323"
+                                        loading="lazy"
+                                    >
+                                </div>
+                                <h3>{{ block.settings.product.title }}</h3>
+                                <p class="price">{{ block.settings.product.price | money }}</p>
+                                <p class="description">{{ block.settings.description }}</p>
+                                <a class="button button--primary" style="background-color: {{ block.settings.button_color }};" href="{{ block.settings.product.url }}">Shop Now</a>
+                            </div>
+                        </div>
+                {% endcase %}
+            {% endfor %}
+        </div>
+        <div class="slider-arrows">
+        <button class="arrow-left">
+            {% render 'icon-arrow-left' %}
+        </button>
+        <button class="arrow-right">
+            {% render 'icon-arrow-right' %}
+        </button>
+    </div>
+    </div>
+    
+</div>
+
+
+{% schema %}
+    {
+      "name": "Products Slider",
+      "tag": "section",
+      "class": "section",
+      "disabled_on": {
+        "groups": ["header", "footer"]
+      },
+      "settings": [
+   
+      ],
+      "blocks": [
+        {
+      "type": "slide",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "color",
+          "id": "button_color",
+          "label": "Button Color",
+          "default":"#A9978D"
+        },
+        {
+            "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "description",
+          "label": "Description"
+        }
+       
+      ]
+    }
+      ],
+      "presets": [
+        {
+          "name": "Products Slider",
+          "blocks": [
+            
+          ]
+        }
+      ]
+    }
+    {% endschema %}
+    

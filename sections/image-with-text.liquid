@@ -47,7 +47,8 @@
       >
     </div>
   {% endif %}
-  {% if section.settings.section_type == 'default' %}
+
+  {% if section.settings.section_type == 'default' and section.settings.layout == 'text_first' %}
   <div class="shape-wrapper">
     {% render 'text-with-image-shape' %}
   </div>
