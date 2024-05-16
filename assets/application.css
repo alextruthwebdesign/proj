@@ -1435,6 +1435,10 @@ body {
   position: relative;
 }
 
+.image-with-text-section.image-with-text-centered.with-image-right .top-image {
+  z-index: 0;
+}
+
 .image-with-text-section .top-image {
   position: absolute;
   top: 0px;
@@ -1801,6 +1805,14 @@ body {
   bottom: 0px;
   left: 0px;
   z-index: 1;
+  width: 100%;
+}
+
+.banner-section .top-image img {
+  width: 100%;
+}
+
+.banner-section .bottom-image img {
   width: 100%;
 }
 

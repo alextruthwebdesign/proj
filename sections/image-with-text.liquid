@@ -26,7 +26,7 @@
 
 {% assign images_section = false %}
 
-<div class="image-with-text-section section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if section.settings.section_type == 'centered' %} image-with-text-centered {% else %} image-with-text-default {% endif %}">
+<div class="image-with-text-section section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if section.settings.section_type == 'centered' %} image-with-text-centered {% else %} image-with-text-default {% endif %} {% if section.settings.layout == 'text_first' %} with-image-right {% endif %}">
   {% if section.settings.top_image != blank %}
     <div class="top-image">
       <img

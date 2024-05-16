@@ -271,6 +271,10 @@ body {
 .image-with-text-section {
   @apply relative;
 }
+.image-with-text-section.image-with-text-centered.with-image-right .top-image {
+  @apply z-0;
+}
+
 .image-with-text-section .top-image {
   @apply absolute top-0 left-0 w-full z-[3];
 }
@@ -414,6 +418,12 @@ body {
 
 .banner-section .bottom-image {
   @apply absolute bottom-0 left-0 w-full z-[1];
+}
+.banner-section .top-image img {
+  @apply w-full;
+}
+.banner-section .bottom-image img {
+  @apply w-full;
 }
 
 .banner-section.banner--mobile-bottom .banner__media {
